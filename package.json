@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "eleventy",
+    "dev": "eleventy --serve"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "github:11ty/eleventy"
+  }
+}
