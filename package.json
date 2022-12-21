@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "eleventy",
-    "dev": "eleventy --serve"
+    "start": "eleventy --config='.eleventy.config.js'",
+    "dev": "eleventy --config='.eleventy.config.js' --serve"
   },
   "dependencies": {
     "@11ty/eleventy": "github:11ty/eleventy"
