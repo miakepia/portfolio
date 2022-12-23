@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    margin: 10px 40px 10px 40px;
+    margin: 10px 30px 10px 30px;
     }
 
 /* Nav */
@@ -162,7 +162,7 @@ html {
     font-size: 6px;
 }
 
-@media (min-width: 1000px) {
+/* @media (min-width: 1000px) {
     html {
         font-size: 6px
     }
@@ -172,7 +172,7 @@ html {
     html {
         font-size: 0.85px
     }
-}
+} */
 
 body {
     font-size: var(--small);
@@ -208,5 +208,5 @@ figcaption {
     --medium: 5rem;
     --large: 7rem;
     --colour-one: rgb(21, 21, 21);
-    --colour-two: #D7BE8E;
+    --colour-two: #E1D2B3;
   }
