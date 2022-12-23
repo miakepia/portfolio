@@ -3,14 +3,14 @@ html {
 }
 
 body {
-    margin: 10px 50px 10px 50px;
+    margin: 10px 40px 10px 40px;
     }
 
 /* Nav */
 nav  {
     min-height: 40vh;
     display: block;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 nav a {
@@ -19,20 +19,33 @@ nav a {
 }
 
 /* Pagination */
-.next, .prev {
+.pagination {
     display: block;
     border-top: 2px solid black;
-    padding: 40px 0 40px 0;
+    padding: 20px 0 40px 40px;
+    margin: 0 -40px 0 -40px;
 }
 
-.next::before {
+.home {
+    padding: 40px 0 40px 40px;
+    border-bottom: 2px solid black;
+}
+
+.next::after {
+    content: url(/assets/images/next.svg);
     display: inline-block;
-    content: "!!";
+    position: relative;
+    top: 15px;
+    left: 20px;
 }
 
 .prev::before {
+    content: url(/assets/images/prev.svg);
     display: inline-block;
-    content: "!!";
+    position: relative;
+    top: 15px;
+    right: 20px;
+    margin-left: 20px;
 }
 
 /* Grid */
@@ -49,8 +62,8 @@ p, h1, h2 {
 }
 
 p {
-    margin-bottom: 50px;
-    margin-left: 40px;
+    margin-bottom: 60px;
+    padding-left: 40px;
 }
 
 /* Position and span */
@@ -66,6 +79,14 @@ p {
     grid-column: 1 / span 2;
 }
 
+.full-bleed {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    padding: 40px;
+    background-color: var(--colour-two);
+    ;
+  }
+
 .sticky {
     position: sticky;
     top: -1px;
@@ -80,18 +101,15 @@ p {
 
 @media (max-width: 700px) {
     p, h1, h2 {
-        border: 2px solid rgb(180, 114, 250);
         display: grid;
         grid-column: 1 / span 2;
         grid-column-gap: 40px;
         grid-row-gap: 0;
-    }
-
+    }   
     .small {
-        border: 2px solid rgb(180, 114, 250);
         grid-column: 1 / span 2;
+        width: 100%;
     }
-
     .sticky {
         position: relative;
     }
@@ -99,7 +117,7 @@ p {
 
 /* Figures */
 figure {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     margin-right: 20px;
 }
 
@@ -116,19 +134,37 @@ figcaption::before {
 /* Typography */
 
 /* Links */
-* {
-    text-decoration-thickness: 0.6px;
-    text-underline-offset: 0.2em;
+a {
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.25em;
+    color: red;
 }
+
+a:hover {
+    color: magenta;
+}
+  
+  a:focus {
+    text-decoration-thickness: 3px;
+    text-underline-offset: 0.25em;
+    outline: none;
+    background-color: rgb(216, 216, 161);
+    padding-bottom: 2px;
+  }
+  
+  a:active {
+    outline: none;
+    background-color: rgb(216, 216, 161);
+  }
 
 /* Font sizing */
 html {
-    font-size: 1px;
+    font-size: 6px;
 }
 
 @media (min-width: 1000px) {
     html {
-        font-size: 1px
+        font-size: 6px
     }
 }
 
@@ -139,8 +175,8 @@ html {
 }
 
 body {
-    font-size: 20rem;
-    line-height: 28rem;
+    font-size: var(--small);
+    line-height: 4rem;
     font-weight: 400;
     letter-spacing: 0;
 }
@@ -148,18 +184,29 @@ body {
 /* Type styles */
 .heading-caption {
     display: inline;
-    font-size: 20rem;
-    color: brown;
-    padding-right: 10px;
+    font-size: var(--small);
+    color: var(--green);
+    padding-right: 1rem;
 }
 
 h1, h2 {
-    font-size: 20rem;
-    line-height: 28rem;
+    font-size: var(--small);
+    line-height: 4rem;
     font-weight: 800;
 }
 
 figcaption {
-    color: red;
+    color: var(--colour-one);
+    font-size: var(--tiny);
 }
 
+/* Variables */
+
+:root {
+    --tiny: 2.7rem;
+    --small: 3rem;
+    --medium: 5rem;
+    --large: 7rem;
+    --colour-one: rgb(21, 21, 21);
+    --colour-two: #D7BE8E;
+  }
