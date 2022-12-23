@@ -3,8 +3,8 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("assets");
 
     // Default layout for all files
-    eleventyConfig.addGlobalData("layout", "default.njk");
-  
+    eleventyConfig.addGlobalData("layout", "base.html");
+
     return {
       dir: {
         includes: "../layouts",

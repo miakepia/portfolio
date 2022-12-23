@@ -1,0 +1,22 @@
+<!-- The base layout -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link href="/assets/styles.css" rel="stylesheet"/>
+  </head>
+  <nav>DEFAULT PAGE Nav goes here</nav>
+  <body>
+    {{ content | safe }}
+    {% include 'include-test.njk' %}
+
+    {% block content %}
+      <p>
+        Here is some placeholder content that will render if a template doesn’t define a block.
+      </p>
+    {% endblock %}
+  </body>
+  <footer>DEFAULT PAGE Footer goes here</footer>
+</html>

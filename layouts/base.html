@@ -1,0 +1,32 @@
+<!-- The base layout -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link href="/assets/reset.css" rel="stylesheet"/>
+    <link href="/assets/styles.css" rel="stylesheet"/>
+
+  </head>
+  <header id="header">
+    <nav>
+      <a href="/index">Mia Allers</a>
+    </nav>  
+  </header>
+  <body>
+     <main>
+        {{ content | safe }}
+        {% include 'pagination.njk' %}
+        <!-- 
+        {% block content %}
+          <p>
+            Here is some placeholder content that will render if a template doesn’t define a block.
+          </p>
+        {% endblock %} -->
+    </main> 
+  </body>
+  <footer>BASE Footer goes here</footer>
+  <script src="/assets/head-fade.js"></script>
+
+  </html>
