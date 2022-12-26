@@ -87,6 +87,10 @@ p {
 
 /* ----------Responsive grid, position, span and size---------- */
 @media (max-width: 300px) {
+    p {
+        padding-left: 0px;
+    }
+
     p, h1, h2 {
         grid-column: 1 / span 6;
         max-width: 65ch;
@@ -101,7 +105,11 @@ p {
 }
 
 @media (min-width: 300px) {
+    p {
+        padding-left: 0px;
+    }
     p, h1, h2 {
+        padding-left: 0px;
         grid-column: 1 / span 6;
         max-width: 65ch;
     }   
@@ -114,8 +122,10 @@ p {
     }  
 }
 
-
 @media (min-width: 500px) {
+    p {
+        padding-left: var(--indent);
+    }
     p, h1, h2 {
         grid-column: 1 / span 5;
         max-width: 65ch;        
