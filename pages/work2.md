@@ -1,12 +1,9 @@
 ---
 title: 'Work'
 layout: casestudy.html
-
+tags: post
+idx: 2
 ---
-
-
-
-
 <article>
 <h1><span class="heading-caption">Case study —</span>Replatforming GOV.UK</h1>
 
@@ -92,16 +89,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </article>
 
-<nav>
-  <div class="[ pagination ] [ next ]">
-    <a href="/index">Template consolidation</a>
-  </div>
-  <div class="[ pagination ] [ prev ]">
-    <a href="/index">Content types discovery</a>
-  </div>
-  <div class="[ pagination ] [ home ]">
-    <a href="/index">Home</a>
-  </div>
-</nav>
-
+<!-- [About](/about)
+[Home](/index) -->
 
