@@ -1,6 +1,7 @@
 html {
     max-width: 900px;
     margin: auto;
+    padding: 30px;
     font-family: system-ui, 'Helvetica Neue', sans-serif;
 }
 
@@ -100,7 +101,6 @@ figcaption {
 }
 
 .full figcaption {
-    color: red;
     max-width: var(--inner-layout-grid);
     margin: auto;
   }
@@ -358,7 +358,7 @@ h1, h2 {
     background-color: rgb(249, 249, 175);
     border: 0.7px solid;
     border-color: var(--colour-two);
-    min-height: 10vh;
+    min-height: 20vh;
   }
 
   .postit-content {
@@ -385,7 +385,7 @@ h1, h2 {
     font-weight: 400;
     color: var(--colour-three);
     padding-left: 0;
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 .next  {
     grid-column: 1 / span 6;
@@ -401,6 +401,7 @@ h1, h2 {
     grid-column: 1 / span 6;
     padding: 20px 0 30px 0;
     border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 /* .next::after {
@@ -419,3 +420,10 @@ h1, h2 {
     right: 20px;
     margin-left: 20px;
 } */
+
+/* Footer */
+footer {
+    display: block;
+    font-size: var(--tiny);
+    padding-top: var(--indent);
+}
