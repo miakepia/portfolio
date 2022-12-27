@@ -42,7 +42,42 @@ HELLO?t labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe
 
 </section>
 
+<div class="full-bleed">
+  <ul class="postit">  
+    <li class="postit-item">  
+      <div class="postit-content">      
+        <p>Lorem ipsum dolor sit amet, consectetur ad.</p>  
+      </div>  
+    </li>  
+    <li class="postit-item">  
+      <div class="postit-content">      
+        <p>Lorem consectetur adipisicing elit...</p>  
+      </div>  
+    </li>  
+    <li class="postit-item">  
+      <div class="postit-content">      
+        <p>Lorem consectetur adipisicing elit...</p>  
+      </div>  
+    </li>  
+    <li class="postit-item">  
+      <div class="postit-content">  
+        <p>Lorem ipsum dolor sit amet, </p>  
+      </div>  
+    </li>  
+    <li class="postit-item">  
+      <div class="postit-content">  
+        <p>Lorit amet, consectetur adipisicing elit...</p>  
+      </div>  
+    </li>  
+    <li class="postit-item">  
+      <div class="postit-content">  
+        <p>Lorem ipsum dolor sit amet, consec</p>  
+      </div>  
+    </li>  
+  </ul>
+</div>
 
+</section>
 </article>
 
 
@@ -62,4 +97,12 @@ HELLO?t labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe
   </div>
 </nav>
 
+<section>
 
+<figure class="new-full">
+      <img src="/assets/images/test.png"
+          alt="doot doot">
+      <figcaption>A picture!</figcaption>
+  </figure>
+
+</section>  
