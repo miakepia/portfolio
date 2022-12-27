@@ -8,7 +8,7 @@ layout: casestudy.html
 
 
 <article>
-<section class="grid">
+<section class="layout-grid">
 <h1><span class="heading-caption">Case study —</span>Replatforming GOV.UK</h1>
 
 HELLO?t labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -29,9 +29,9 @@ HELLO?t labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe
 
 
 <section>
-<!-- <section class="grid"> -->
+<!-- <section class="layout-grid"> -->
 
-<div class="[ full-bleed ]">
+<div class="[ full-bg ]">
   <figure class="full">
       <img src="/assets/images/test.png"
           alt="doot doot">
@@ -42,7 +42,7 @@ HELLO?t labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe
 
 </section>
 
-<div class="full-bleed">
+<!-- <div class="full-bg"> -->
   <ul class="postit">  
     <li class="postit-item">  
       <div class="postit-content">      
@@ -75,7 +75,7 @@ HELLO?t labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe
       </div>  
     </li>  
   </ul>
-</div>
+<!-- </div> -->
 
 </section>
 </article>
@@ -85,7 +85,7 @@ HELLO?t labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe
 
 
 
-<nav class="[ grid ] [ pagination ]">
+<nav class="[ layout-grid ] [ pagination ]">
   <div class="next"><p>Next case study</p>
     <a href="/index">Template consolidation</a>
   </div>

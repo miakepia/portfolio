@@ -5,8 +5,9 @@ html {
 }
 
 body {
-    margin: var(--indent);
+    /* margin: var(--indent); */
     background-color: var(--background);
+    border: 2px solid red;
     }
 
 /* ----------Variables---------- */
@@ -16,13 +17,13 @@ body {
     --medium: 4rem;
     --large: 7rem;
     --colour-one: rgb(21, 21, 21);
-    --colour-two: #BAA899;
+    --colour-two: #baa89972;
     --colour-three: rgb(116, 65, 7);
     --indent: 1em;
     --indent-small: 0.7em;
     --background: #f8f7f2;
-    --inner-grid: 820px;
-    --grid: 900px;
+    --inner-layout-grid: 870px;
+    --layout-grid: 900px;
   }
 
 /* ----------Nav---------- */
@@ -40,12 +41,12 @@ nav a {
 
 /* ----------Grid---------- */
 
-.grid {
+.layout-grid {
    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-column: 1 / span 6;
-    grid-column-gap: 20px;
-    grid-row-gap: 0; 
+   grid-template-columns: repeat(6, 1fr);
+   grid-column: 1 / span 6;
+   grid-column-gap: 20px;
+   grid-row-gap: 0; 
 } 
 
 p, h1, h2 {
@@ -76,11 +77,13 @@ p {
     margin: auto;
   }
 
-  .full img {
+.full img {
     margin: auto;
   }
 
-.full-bleed {
+
+
+.full-bg {
     width: 100vw;
     margin-left: calc(50% - 50vw);
     padding: var(--indent);
@@ -90,14 +93,18 @@ p {
 figcaption {
     color: var(--colour-one);
     font-size: var(--tiny);
-    display: block;
-    position: relative;
-    margin: auto;
     border-top: 1px solid #7e7166;
     margin-top: var(--indent);
 }
 
+.full figcaption {
+    color: red;
+    max-width: var(--inner-layout-grid);
+    margin: auto;
+  }
+
 figure {
+    max-width: var(--layout-grid);
     margin-bottom: var(--indent);
 }
 
@@ -130,7 +137,7 @@ figcaption::before {
         grid-column: 1 / span 6;
         margin-left: 0px;
     }  
-    .full-bleed {
+    .full-bg {
         width: 100vw;
         padding: 0;
         background-color: var(--colour-two);
@@ -163,7 +170,7 @@ figcaption::before {
         margin-left: 0px;
     }  
 
-    .full-bleed {
+    .full-bg {
         width: 100vw;
         padding: var(--indent);
         background-color: var(--colour-two);
@@ -199,7 +206,7 @@ figcaption::before {
         position: relative;
     } 
     
-    .full-bleed {
+    .full-bg {
         width: 100vw;
         margin-left: calc(50% - 50vw);
         padding: var(--indent);
@@ -307,7 +314,7 @@ h1, h2 {
 
 /* ----------Post its---------- */
  .postit {
-    max-width: var(--grid);
+    max-width: var(--layout-grid);
     padding: var(--indent);
     margin: auto;
     grid-column: 1 / span 6;
