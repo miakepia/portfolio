@@ -7,7 +7,6 @@ html {
 body {
     /* margin: var(--indent); */
     background-color: var(--background);
-    border: 2px solid red;
     }
 
 /* ----------Variables---------- */
@@ -21,7 +20,7 @@ body {
     --colour-three: rgb(116, 65, 7);
     --indent: 1em;
     --indent-small: 0.7em;
-    --background: #f8f7f2;
+    --background: #ffffff;
     --inner-layout-grid: 870px;
     --layout-grid: 900px;
   }
@@ -40,6 +39,9 @@ nav a {
 }
 
 /* ----------Grid---------- */
+section {
+    margin-bottom: var(--indent);
+}
 
 .layout-grid {
    display: grid;
@@ -54,7 +56,6 @@ p, h1, h2 {
 }
 
 p {
-    margin-bottom: 60px;
     padding-left: var(--indent);
     max-width: 65ch;
 }
@@ -79,6 +80,7 @@ p {
 
 .full img {
     margin: auto;
+    padding: 60px 0;
   }
 
 
@@ -375,10 +377,8 @@ h1, h2 {
 
 /* ----------Pagination---------- */
 .pagination {
-    /* display: grid; */
-    /* grid-column: 1 / span 6; */
-    /* background-color: red; */
-    /* border-top: 1px solid black; */
+    /* background-color: #f8f7f2; */
+
 }
 .pagination p {
     font-size: var(--tiny);
@@ -390,7 +390,7 @@ h1, h2 {
 .next  {
     grid-column: 1 / span 6;
     padding: 20px 0 30px 0;
-    /* border-top: 1px solid black; */
+    border-top: 1px solid black;
 }
 .prev  {
     grid-column: 1 / span 6;

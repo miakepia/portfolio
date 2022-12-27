@@ -42,7 +42,7 @@ HELLO?t labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe
 
 </section>
 
-<!-- <div class="full-bg"> -->
+<section>
   <ul class="postit">  
     <li class="postit-item">  
       <div class="postit-content">      
@@ -75,8 +75,6 @@ HELLO?t labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe
       </div>  
     </li>  
   </ul>
-<!-- </div> -->
-
 </section>
 </article>
 
