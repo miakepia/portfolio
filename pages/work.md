@@ -25,35 +25,14 @@ HELLO?t labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe
     <figcaption>A picture!</figcaption>
 </figure>
 
-<figure class="left">
-     <img src="/assets/images/test.png"
-        alt="doot doot">
-    <figcaption>A picture!</figcaption>
-</figure>
-
 </section>
 
-<section class="grid">
-
-Second para Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-</section>
-
-<section class="grid">
-
-## Heading
-Next paragraphLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-</section>
 
 <section>
+<!-- <section class="grid"> -->
 
-
-
-<div class="full-bleed">
-  <figure class="left">
+<div class="[ full-bleed ]">
+  <figure class="full">
       <img src="/assets/images/test.png"
           alt="doot doot">
       <figcaption>A picture!</figcaption>
@@ -63,45 +42,7 @@ Next paragraphLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei
 
 </section>
 
-<div class="full-bleed">
 
-## Post it notes section
-
-  <ul class="postit">  
-    <li class="postit-item">  
-      <div class="postit-content">      
-        <p>Lorem ipsum dolor sit amet, consectetur ad.</p>  
-      </div>  
-    </li>  
-    <li class="postit-item">  
-      <div class="postit-content">      
-        <p>Lorem consectetur adipisicing elit...</p>  
-      </div>  
-    </li>  
-    <li class="postit-item">  
-      <div class="postit-content">      
-        <p>Lorem consectetur adipisicing elit...</p>  
-      </div>  
-    </li>  
-    <li class="postit-item">  
-      <div class="postit-content">  
-        <p>Lorem ipsum dolor sit amet, </p>  
-      </div>  
-    </li>  
-    <li class="postit-item">  
-      <div class="postit-content">  
-        <p>Lorit amet, consectetur adipisicing elit...</p>  
-      </div>  
-    </li>  
-    <li class="postit-item">  
-      <div class="postit-content">  
-        <p>Lorem ipsum dolor sit amet, consec</p>  
-      </div>  
-    </li>  
-  </ul>
-</div>
-
-</section>
 </article>
 
 
