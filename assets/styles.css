@@ -75,6 +75,10 @@ p {
     margin: auto;
   }
 
+  .full img {
+    margin: auto;
+  }
+
 .full-bleed {
     width: 100vw;
     margin-left: calc(50% - 50vw);
@@ -127,7 +131,7 @@ figcaption::before {
     }  
     .full-bleed {
         width: 100vw;
-        padding: 10px;
+        padding: var(--indent);
         background-color: var(--colour-two);
       }
 
