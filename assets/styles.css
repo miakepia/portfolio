@@ -21,6 +21,7 @@ body {
     --indent: 1em;
     --background: #f8f7f2;
     --inner-grid: 820px;
+    --grid: 900px;
   }
 
 /* ----------Nav---------- */
@@ -69,15 +70,15 @@ p {
 }
 
 .full {
-    border: 10px solid blue;    
-    max-width: var(--inner-grid);
+    max-width: var(--grid);
+    padding: var(--indent);
     margin: auto;
   }
 
 .full-bleed {
     width: 100vw;
     margin-left: calc(50% - 50vw);
-    padding: 40px;
+    padding: var(--indent);
     background-color: var(--colour-two);
   }
 
@@ -288,13 +289,13 @@ h1, h2 {
 
 /* ----------Post its---------- */
  .postit {
-    max-width: var(--inner-grid);
+    max-width: var(--grid);
+    padding: var(--indent);
     margin: auto;
     grid-column: 1 / span 6;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    padding-left: 0px;
   }
 
   @media all and (min-width: 300px) {
