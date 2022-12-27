@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    margin: 40px;
+    margin: var(--indent);
     background-color: var(--background);
     }
 
@@ -138,12 +138,11 @@ figcaption::before {
 
     body {
      margin: var(--indent-small);
-     background-color: pink;
     }
 
     .full {
-        padding: var(--indent-small);
-      }
+     padding: var(--indent-small);
+    }
 }
 
 @media (min-width: 300px) {
