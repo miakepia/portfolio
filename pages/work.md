@@ -96,13 +96,3 @@ HELLO?t labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe
     <a href="/index">Home</a>
   </div>
 </nav>
-
-<section>
-
-<figure class="new-full">
-      <img src="/assets/images/test.png"
-          alt="doot doot">
-      <figcaption>A picture!</figcaption>
-  </figure>
-
-</section>  

@@ -19,6 +19,7 @@ body {
     --colour-two: #BAA899;
     --colour-three: rgb(116, 65, 7);
     --indent: 1em;
+    --indent-small: 0.7em;
     --background: #f8f7f2;
     --inner-grid: 820px;
     --grid: 900px;
@@ -131,14 +132,18 @@ figcaption::before {
     }  
     .full-bleed {
         width: 100vw;
-        padding: var(--indent);
+        padding: 0;
         background-color: var(--colour-two);
       }
 
     body {
-     margin: 20px;
+     margin: var(--indent-small);
      background-color: pink;
     }
+
+    .full {
+        padding: var(--indent-small);
+      }
 }
 
 @media (min-width: 300px) {
@@ -166,8 +171,13 @@ figcaption::before {
       }
 
     body {
-     margin: 20px;
+     margin: var(--indent-small);
     }
+
+    .full {
+     padding: var(--indent-small);
+     padding: 0;
+     }
 }
 
 @media (min-width: 500px) {
@@ -195,6 +205,11 @@ figcaption::before {
         margin-left: calc(50% - 50vw);
         padding: var(--indent);
         background-color: var(--colour-two);
+      }
+
+    .full {
+        padding: var(--indent-small);
+        padding: 0;
       }
 }
 
@@ -282,7 +297,7 @@ body {
     display: inline;
     font-size: var(--small);
     color: var(--colour-three);
-    padding-right: 1rem;
+    padding-right: var(--indent);
 }
 
 h1, h2 {
@@ -305,6 +320,9 @@ h1, h2 {
   @media all and (min-width: 300px) {
     .postit-item {
       max-width: 50%;
+    }
+    .postit {
+      padding: 0;
     }
   }
 
