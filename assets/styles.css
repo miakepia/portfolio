@@ -368,6 +368,8 @@ h1, h2 {
 
 /* ----------Pagination---------- */
 .pagination {
+    /* display: grid; */
+    /* grid-column: 1 / span 6; */
     /* background-color: red; */
     /* border-top: 1px solid black; */
 }
@@ -379,14 +381,17 @@ h1, h2 {
     margin-bottom: 0;
 }
 .next  {
+    grid-column: 1 / span 6;
     padding: 20px 0 30px 0;
     /* border-top: 1px solid black; */
 }
 .prev  {
+    grid-column: 1 / span 6;
     padding: 20px 0 30px 0;
     border-top: 1px solid black;
 }
 .home {
+    grid-column: 1 / span 6;
     padding: 20px 0 30px 0;
     border-top: 1px solid black;
 }

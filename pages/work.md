@@ -85,7 +85,7 @@ HELLO?t labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe
 
 
 
-<nav class="pagination">
+<nav class="[ grid ] [ pagination ]">
   <div class="next"><p>Next case study</p>
     <a href="/index">Template consolidation</a>
   </div>
