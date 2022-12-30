@@ -4,93 +4,75 @@ layout: casestudy.html
 
 ---
 
+<!-- Section 1 -->
+<section>
+  <div class="row-2-column">
 
+   # Heading 1
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum d
 
+  </div>
 
-<article>
-<section class="layout-grid">
-<h1><span class="heading-caption">Case study —</span>Replatforming GOV.UK</h1>
-
-HELLO?t labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-<figure class="[ right ] [ sticky ] [ small ]">
-     <img src="/assets/images/test.png"
-        alt="doot doot">
-    <figcaption>A picture!</figcaption>
-</figure>
-
-<figure class="[ left ] [ sticky ]">
-     <img src="/assets/images/test.png"
-        alt="doot doot">
-    <figcaption>A picture!</figcaption>
-</figure>
-
+  <figure class>
+    <img class="[ left ] [ bg-dark ]" src="/assets/images/browser.png"
+      alt="doot doot">
+    <img class="[ right ] [ bg-dark ]" src="/assets/images/browser.png"
+      alt="doot doot"> 
+      <figcaption class="center">A picture!</figcaption>
+  </figure>
 </section>
 
-
+<!-- Section 2 -->
 <section>
-<!-- <section class="layout-grid"> -->
+<div class="row-2-column">
 
-<div class="[ full-bg ]">
-  <figure class="full">
-      <img src="/assets/images/test.png"
-          alt="doot doot">
-      <figcaption>A picture!</figcaption>
-  </figure>
- </section> 
+   ## Heading 2
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum d
+
 </div>
 
+  <figure class>
+      <img class="[ center ] [ bg-medium ]" src="/assets/images/2.jpg"
+        alt="doot doot">
+      <figcaption class="center">A picture!</figcaption>
+  </figure>
+
 </section>
+
+<!-- Section 3 -->
+<section>
+<div class="row-2-column">
+
+   ## Heading 2
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in vLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+    
+   <figure class="[ right ] [ sticky ] [ small ]">
+      <img src="/assets/images/test.png"
+        alt="doot doot">
+  </figure>
+
+   ## Heading 2
+    cillum dLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in vLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum d
+
+
+</div>
+</section>
+
+<!-- Section 4 -->
 
 <section>
-  <ul class="postit">  
-    <li class="postit-item">  
-      <div class="postit-content">      
-        <p>Lorem ipsum dolor sit amet, consectetur ad.</p>  
-      </div>  
-    </li>  
-    <li class="postit-item">  
-      <div class="postit-content">      
-        <p>Lorem consectetur adipisicing elit...</p>  
-      </div>  
-    </li>  
-    <li class="postit-item">  
-      <div class="postit-content">      
-        <p>Lorem consectetur adipisicing elit...</p>  
-      </div>  
-    </li>  
-    <li class="postit-item">  
-      <div class="postit-content">  
-        <p>Lorem ipsum dolor sit amet, </p>  
-      </div>  
-    </li>  
-    <li class="postit-item">  
-      <div class="postit-content">  
-        <p>Lorit amet, consectetur adipisicing elit...</p>  
-      </div>  
-    </li>  
-    <li class="postit-item">  
-      <div class="postit-content">  
-        <p>Lorem ipsum dolor sit amet, consec</p>  
-      </div>  
-    </li>  
-  </ul>
+<div class="row-2-column">
+
+   ## Heading 2
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum d
+
+  <figure class="[ left ] [ bg-light ]">
+      <img src="/assets/images/4.jpg"
+        alt="doot doot">
+      <figcaption class="">A picture!</figcaption>
+  </figure>
+
+</div>
 </section>
-</article>
 
 
-
-
-
-
-<nav class="[ layout-grid ] [ pagination ]">
-  <div class="next"><p>Next case study</p>
-    <a href="/index">Template consolidation</a>
-  </div>
-  <div class="prev"><p>Previous case study</p>
-    <a href="/index">Content types discovery</a>
-  </div>
-  <div class="home">
-    <a href="/index">Home</a>
-  </div>
-</nav>
