@@ -14,13 +14,17 @@ body {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    line-height: 1.4;
+    line-height: 1.45;
     letter-spacing: 0;
     color: var(--body);
     padding: var(--padding-3);
     letter-spacing: -0.003em;
     word-wrap: break-word;
+    letter-spacing: .1px;
 }
+
+
+
 
 
 :root {
@@ -99,6 +103,7 @@ footer {
 
 footer p {
   font-size: var(--small);
+  padding-bottom: 0px;
 }
 
 /* Work: Projects */
@@ -137,6 +142,10 @@ footer p {
 
 
 /* ----------Figures amd images */
+img {
+  border: 1px solid red;
+}
+
 figure {
   display: grid;
 }
@@ -179,19 +188,19 @@ figcaption::before {
 }
 
 .left {
-  grid-column: 1 / span 6;
-}
-
-.right {
-  grid-column: 7 / span 6;
-}
-
-.left-alt {
   grid-column: 1 / span 4;
 }
 
-.right-alt {
+.right {
   grid-column: 5 / span 8;
+}
+
+.left-alt {
+  grid-column: 1 / span 6;
+}
+
+.right-alt {
+  grid-column: 7 / span 6;
 }
 
 #hidden{
@@ -499,7 +508,7 @@ ol {
 /* Gallery grid */
 
 .gallery img {
-  margin: var(--padding-3);
+  /* padding: var(--padding-3); */
 }
 
 .gallery {
@@ -513,8 +522,8 @@ ol {
   :root {
     /* Sizing */
     --small: 2.4rem;
-    --medium: 2.9rem;
-    --large: 3.5rem;
+    --medium: 3rem;
+    --large: 3.3rem;
   }  
 
   .left {
@@ -543,8 +552,8 @@ ol {
   :root {
     /* Sizing */
     --small: 2.4rem;
-    --medium: 2.9rem;
-    --large: 3.5rem;
+    --medium: 3rem;
+    --large: 3.3rem;
   }  
 
   .left, .right, .left-alt, .right-alt{
@@ -565,11 +574,9 @@ ol {
   }
 
   #project-1::before, #project-2::before, #project-3::before {
-    font-family: 'IBM Plex serif', 'serif';
-    font-weight: normal;
     text-align: left;
     display: block;
-    font-weight: 300;
+    max-width: 100%;
     position: relative;
     left:130px;
   }
@@ -602,10 +609,6 @@ ol {
     width: 100%;
   }
 }
-
-
-
-
 
 
 

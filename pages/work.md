@@ -34,37 +34,25 @@ layout: base.html
 
 <section class="gallery">
 <div class="[ grid ]">
-      <h2 class="right">Other work</h2>  
-      
+      <h2 class="right">Other work</h2>
+</div>
+  
+ <figure class="grid">     
  <img  class="left" src="/assets/images/exebenus.png" alt="doot doot"> 
- <img  class="right-alt" src="/assets/images/exebenus2.png" alt="doot doot"> 
-
-   
+ <img  class="right-alt" src="/assets/images/exebenus2.png" alt="doot doot">  
  <img  class="right-alt" src="/assets/images/mission-patches.png" alt="doot doot"> 
-
  <img  class="left" src="/assets/images/pride2.png" alt="doot doot">      
  <img  class="right" src="/assets/images/pride1.png" alt="doot doot"> 
-      
-
  <img  class="right" src="/assets/images/baby1.png" alt="doot doot"> 
  <img  class="left" src="/assets/images/baby2.png" alt="doot doot"> 
-
-
  <img  class="middle" src="/assets/images/placeholder.png" alt="doot doot"> 
-      
-  
  <img  class="right" src="/assets/images/hm2.png" alt="doot doot"> 
-
  <img  class="left" src="/assets/images/hm1.png" alt="doot doot"> 
-
  <img  class="right-alt" src="/assets/images/ptn3.png" alt="doot doot"> 
  <img  class="left" src="/assets/images/pnt1.png" alt="doot doot"> 
-
-
  <img  class="right" src="/assets/images/jobs-pic.png" alt="doot doot"> 
  <img  class="left-alt" src="/assets/images/bwu.png" alt="doot doot"> 
+</figure>
 
 
-
-</div>
 </section>
