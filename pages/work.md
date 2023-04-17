@@ -1,78 +1,70 @@
 ---
 title: 'Work'
-layout: casestudy.html
+layout: base.html
 
 ---
 
-<!-- Section 1 -->
-<section>
-  <div class="row-2-column">
-
-   # Heading 1
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum d
-
-  </div>
-
-  <figure class>
-    <img class="[ left ] [ bg-dark ]" src="/assets/images/browser.png"
-      alt="doot doot">
-    <img class="[ right ] [ bg-dark ]" src="/assets/images/browser.png"
-      alt="doot doot"> 
-      <figcaption class="center">A picture!</figcaption>
-  </figure>
-</section>
-
-<!-- Section 2 -->
-<section>
-<div class="row-2-column">
-
-   ## Heading 2
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum d
-
-</div>
-
-  <figure class>
-      <img class="[ center ] [ bg-medium ]" src="/assets/images/2.jpg"
-        alt="doot doot">
-      <figcaption class="center">A picture!</figcaption>
-  </figure>
-
-</section>
-
-<!-- Section 3 -->
-<section>
-<div class="row-2-column">
-
-   ## Heading 2
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in vLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+<section class="">
+<div class="intro">
+   <h1>Work</h1>
     
-   <figure class="[ right ] [ sticky ] [ small ]">
-      <img src="/assets/images/test.png"
-        alt="doot doot">
-  </figure>
-
-   ## Heading 2
-    cillum dLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in vLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum d
-
-
-</div>
+    For the past few years, I've been working at the Government Digital Service. I like to fix the basics. Something else, something else, probably.     
+</div> 
 </section>
-
-<!-- Section 4 -->
 
 <section>
-<div class="row-2-column">
+<div class="[ grid ] [ projects ]">
+<div class="right">
+   <h2><span class="gov-logo">GOV.UK</span>Selected projects</h2>
+   <h3 id="project-1"><a href="/template">Template</a></h3>
 
-   ## Heading 2
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum d
+    The team created a new, overarching taxonomy to sit across the different parts of the site, allowing us to unify and serve all content in one place. 
 
-  <figure class="[ left ] [ bg-light ]">
-      <img src="/assets/images/4.jpg"
-        alt="doot doot">
-      <figcaption class="">A picture!</figcaption>
-  </figure>
+   <h3 id="project-2"><a href="/taxonomy">Navigation & IA</a></h3>
 
+    The team created a new, overarching taxonomy to sit across the different parts of the site, allowing us to unify and serve all content in one place. 
+
+   <h3 id="project-3"><a href="/content-types">Experience system</a></h3>
+
+    The team created a new, overarching taxonomy to sit across the different parts of the site, allowing us to unify and serve all content in one place.    
+
+</div>
 </div>
 </section>
 
+<section class="gallery">
+<div class="[ grid ]">
+      <h2 class="right">Other work</h2>  
+      
+ <img  class="left" src="/assets/images/exebenus.png" alt="doot doot"> 
+ <img  class="right-alt" src="/assets/images/exebenus2.png" alt="doot doot"> 
 
+   
+ <img  class="right-alt" src="/assets/images/mission-patches.png" alt="doot doot"> 
+
+ <img  class="left" src="/assets/images/pride2.png" alt="doot doot">      
+ <img  class="right" src="/assets/images/pride1.png" alt="doot doot"> 
+      
+
+ <img  class="right" src="/assets/images/baby1.png" alt="doot doot"> 
+ <img  class="left" src="/assets/images/baby2.png" alt="doot doot"> 
+
+
+ <img  class="middle" src="/assets/images/placeholder.png" alt="doot doot"> 
+      
+  
+ <img  class="right" src="/assets/images/hm2.png" alt="doot doot"> 
+
+ <img  class="left" src="/assets/images/hm1.png" alt="doot doot"> 
+
+ <img  class="right-alt" src="/assets/images/ptn3.png" alt="doot doot"> 
+ <img  class="left" src="/assets/images/pnt1.png" alt="doot doot"> 
+
+
+ <img  class="right" src="/assets/images/jobs-pic.png" alt="doot doot"> 
+ <img  class="left-alt" src="/assets/images/bwu.png" alt="doot doot"> 
+
+
+
+</div>
+</section>
