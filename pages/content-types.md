@@ -103,7 +103,7 @@ layout: base.html
 </div>
 
 <figure class="grid">
-   <img  class="[ right ] [ fade-in ]" src="/assets/images/placeholder.png"
+   <img  class="[ right ] [ ]" src="/assets/images/template.png"
     alt="doot doot"> 
    <figcaption class="right">Caption.</figcaption>
   </figure>

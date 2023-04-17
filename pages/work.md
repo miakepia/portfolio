@@ -4,6 +4,7 @@ layout: base.html
 
 ---
 
+
 <section class="">
 <div class="intro">
    <h1>Work</h1>
@@ -37,9 +38,29 @@ layout: base.html
       <h2 class="right">Other work</h2>
 </div>
   
- <figure class="grid">     
- <img  class="left" src="/assets/images/exebenus.png" alt="doot doot"> 
- <img  class="right-alt" src="/assets/images/exebenus2.png" alt="doot doot">  
+ <div class="grid">     
+ 
+ <img  class="left-small" src="/assets/images/placeholder.png" alt="doot doot"> 
+ <img  class="right-big" src="/assets/images/placeholder.png" alt="doot doot"> 
+
+ <img  class="middle" src="/assets/images/placeholder.png" alt="doot doot"> 
+
+ <img  class="left-big" src="/assets/images/placeholder.png" alt="doot doot"> 
+ <img  class="right-small" src="/assets/images/placeholder.png" alt="doot doot"> 
+
+
+ <img  class="left-half" src="/assets/images/placeholder.png" alt="doot doot"> 
+ <img  class="right-half" src="/assets/images/placeholder.png" alt="doot doot"> 
+
+ 
+</div>
+
+
+</section>
+
+
+
+ <!-- <img  class="right-alt" src="/assets/images/exebenus2.png" alt="doot doot">  
  <img  class="right-alt" src="/assets/images/mission-patches.png" alt="doot doot"> 
  <img  class="left" src="/assets/images/pride2.png" alt="doot doot">      
  <img  class="right" src="/assets/images/pride1.png" alt="doot doot"> 
@@ -51,8 +72,4 @@ layout: base.html
  <img  class="right-alt" src="/assets/images/ptn3.png" alt="doot doot"> 
  <img  class="left" src="/assets/images/pnt1.png" alt="doot doot"> 
  <img  class="right" src="/assets/images/jobs-pic.png" alt="doot doot"> 
- <img  class="left-alt" src="/assets/images/bwu.png" alt="doot doot"> 
-</figure>
-
-
-</section>
+ <img  class="left-alt" src="/assets/images/bwu.png" alt="doot doot">  -->
