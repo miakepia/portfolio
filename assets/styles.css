@@ -103,10 +103,7 @@ footer {
   padding-top: var(--padding-5);
 }
 
-footer p {
-  font-size: var(--small);
-  padding-bottom: 0px;
-}
+
 
 /* Work: Projects */
 .projects a {
@@ -626,6 +623,10 @@ ol {
     display: grid;
     grid-column: 8 / span 5 ;
   }
+  footer p {
+    font-size: var(--small);
+    padding-bottom: 0px;
+  }
 }
 
 @media all and (max-width: 320px) {
@@ -653,6 +654,10 @@ ol {
   .about-img {
     display: grid;
     grid-column: 8 / span 5 ;
+  }
+  footer p {
+    font-size: var(--small);
+    padding-bottom: 0px;
   }
 }
 

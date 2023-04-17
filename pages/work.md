@@ -40,8 +40,8 @@ layout: base.html
   
  <div class="grid">     
  
- <img  class="left-small" src="/assets/images/placeholder.png" alt="doot doot"> 
- <img  class="right-big" src="/assets/images/placeholder.png" alt="doot doot"> 
+ <img  class="left-small" src="/assets/images/exebenus.png" alt="doot doot"> 
+ <img  class="right-big" src="/assets/images/exebenus2.png" alt="doot doot"> 
 
  <img  class="middle" src="/assets/images/bf-postcards.png" alt="doot doot"> 
 
