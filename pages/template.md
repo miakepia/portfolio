@@ -55,9 +55,9 @@ layout: base.html
  </div>
 
 <figure class="grid">
-   <img  class="[ left ] [  ]" src="/assets/images/postits-alt.png"
+   <img  class="[ left-alt ] [  ]" src="/assets/images/postits.png"
     alt="doot doot">
-    <img  class="right" src="/assets/images/personas-alt.png"
+    <img  class="right-alt" src="/assets/images/personas-alt.png"
     alt="doot doot"> 
    <figcaption class="right">Image of post it notes with A11y stuff] We used user profiles to help us review the templates for accessibility issues. We also tested on a range of devices, which gave us much-needed insight into how users of older technology experience the site.</figcaption>
 </figure>   
@@ -80,7 +80,7 @@ layout: base.html
 </div>
 
 <figure class="grid">
-   <img  class="[ right-alt ]" src="/assets/images/mobile.png"
+   <img  class="[ right ]" src="/assets/images/mobile.png"
     alt="doot doot"> 
    <figcaption class="right">In 2016, 40% of our users were on mobile devices. By 2023, this percentage had grown to over 60%, making the mobile improvements even more important.</figcaption>
   </figure>

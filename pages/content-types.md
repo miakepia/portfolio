@@ -26,8 +26,6 @@ layout: base.html
 </div>
 
 <figure class="grid">
-<img  class="[ right ] [ small ]" src="/assets/images/placeholder.png" alt="doot doot">
-
   <div class="[ quote ] [ right ]">
     <blockquote><h3><span class="gov-logo">GOV.UK</span> strategy 2022</h3>
     Build a <span id="simple">simple,<a href="#fn1"><sup id="one">1</sup></span></a><span id="joined-up"> joined-up<a href="#fn2"><sup>2</sup></span></a>  and <span id="personalised">personalised<a href="#fn3"><sup id="three">3</sup></a></span> experience of government <span id="everyone"> for  everyone<a href="#fn4"><sup>4</sup></a></span>

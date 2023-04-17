@@ -32,8 +32,6 @@ layout: base.html
 </div>
 
   <figure class="grid">
-   <!-- <img  class="[ left ] [ small ] [ sticky ]" src="/assets/images/placeholder.png"
-    alt="doot doot">  -->
    <img  class="middle" src="/assets/images/site-headers.png"
     alt="doot doot"> 
    <figcaption class="right">GOV.UK looks and feels like a single domain, but is made up of several smaller parts, all powered by different publishing applications. </figcaption>
@@ -60,7 +58,7 @@ layout: base.html
 </div>
 
 <figure class="grid">
-    <img  class="[ middle ]" src="/assets/images/taxonomy-alt.png"
+    <img  class="[ right ]" src="/assets/images/taxonomy-alt.png"
     alt="doot doot"> 
    <figcaption class="right">The universal taxonomy allowed us to understand the breadth and depth of our content, and consider how best to present it to users.</figcaption>
 </figure>
@@ -78,7 +76,7 @@ layout: base.html
 </div>
 
 <figure class="grid">
-   <img  class="[ right-alt ] [  ]" src="/assets/images/domain.png"
+   <img  class="[ middle ] [  ]" src="/assets/images/domain.png"
     alt="doot doot"> 
    <figcaption class="right">Once we understood the domain and the relationships between objects, we could begin to understand and predict how users might need to move through the site.</figcaption>
 </figure>
@@ -134,8 +132,6 @@ layout: base.html
 </div>
 
 <figure class="grid"> 
-  <!-- <img  class="right" src="/assets/images/map.png"
-  alt="doot doot">  -->
   <img  class="middle" src="/assets/images/link-formula.png"
   alt="doot doot"> 
   <figcaption class="right">We were able to combine jobs, objects and taxonomy elements to predict where users needed to go next.</figcaption>

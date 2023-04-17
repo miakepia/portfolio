@@ -145,7 +145,6 @@ footer p {
 
 /* ----------Figures amd images */
 img {
-  border: 1px solid red;
 }
 
 figure {
@@ -340,7 +339,6 @@ p:last-child, li:last-child {
     display: grid;
     grid-column: 1 / span 9;
     color: red;
-    border: 1px solid red;
   }
 
   .about-img {
@@ -380,6 +378,7 @@ p:last-child, li:last-child {
 blockquote {
   display: block;
   min-height: 40vh;
+  line-height: 1.2;
 }
 
 sup {
@@ -578,10 +577,6 @@ ol {
     grid-column: 7 / span 6;
   }
 
-  p {
-    color: rgb(15, 95, 80);
-  }
-
   .sticky {
     position: relative;
     border: 1px solid rgb(82, 31, 183);
@@ -592,31 +587,26 @@ ol {
   }
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 550px) {
   :root {
     /* Sizing */
     --small: 2.4rem;
     --medium: 3rem;
     --large: 3.3rem;
   }  
-
   .left, .right, .left-alt, .right-alt{
     grid-column: 1 / span 12;
   }
-
-  p {
-    color: rgb(15, 95, 80);
-  }
-
+  p:last-child, li:last-child {
+    padding-bottom: var(--padding-3);
+  }  
   .sticky {
     position: relative;
     border: 1px solid green;
   }
-
   .small {
     width: 100%;
   }
-
   #project-1::before, #project-2::before, #project-3::before {
     text-align: left;
     display: block;
@@ -626,7 +616,17 @@ ol {
   }
 }
 
-
+@media all and (max-width: 450px) {
+  .about {
+    display: grid;
+    grid-column: 1 / span 12;
+    color: red;
+  }
+  .about-img {
+    display: grid;
+    grid-column: 8 / span 5 ;
+  }
+}
 
 @media all and (max-width: 320px) {
   :root {
@@ -635,22 +635,24 @@ ol {
     --medium: 2.9rem;
     --large: 3.5rem;
   }  
-
   .left, .right, .left-alt, .right-alt{
     grid-column: 1 / span 12;
   }
-
-  p {
-    color: red;
-  }
-
   .sticky {
     position: relative;
     border: 1px solid green;
   }
-
   .small {
     width: 100%;
+  }
+  .about {
+    display: grid;
+    grid-column: 1 / span 12;
+    color: red;
+  }
+  .about-img {
+    display: grid;
+    grid-column: 8 / span 5 ;
   }
 }
 

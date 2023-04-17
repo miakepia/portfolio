@@ -43,7 +43,7 @@ layout: base.html
  <img  class="left-small" src="/assets/images/placeholder.png" alt="doot doot"> 
  <img  class="right-big" src="/assets/images/placeholder.png" alt="doot doot"> 
 
- <img  class="middle" src="/assets/images/placeholder.png" alt="doot doot"> 
+ <img  class="middle" src="/assets/images/bf-postcards.png" alt="doot doot"> 
 
  <img  class="left-big" src="/assets/images/placeholder.png" alt="doot doot"> 
  <img  class="right-small" src="/assets/images/placeholder.png" alt="doot doot"> 
@@ -52,6 +52,8 @@ layout: base.html
  <img  class="left-half" src="/assets/images/placeholder.png" alt="doot doot"> 
  <img  class="right-half" src="/assets/images/placeholder.png" alt="doot doot"> 
 
+ <img  class="left-small" src="/assets/images/placeholder.png" alt="doot doot"> 
+ <img  class="right-big" src="/assets/images/mission-patches.png" alt="doot doot"> 
  
 </div>
 
