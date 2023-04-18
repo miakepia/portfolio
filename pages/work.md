@@ -56,7 +56,7 @@ layout: base.html
  
 
  <picture class="middle">
-    <source media="(min-width: 900px)" srcset="/assets/images/desk.png">
+    <source media="(min-width: 800px)" srcset="/assets/images/desk.png">
     <source media="(max-width: 400px)" srcset="/assets/images/mob.png">
     <img src="/assets/images/desk.png"/>
 </picture>

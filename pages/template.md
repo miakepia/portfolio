@@ -31,12 +31,11 @@ layout: base.html
 
 
   <figure class="grid">
-   <!-- <img  class="[ left ] [ small ] [ sticky ]" src="/assets/images/placeholder.png"
-    alt="doot doot"> 
-   <img  class="right" src="/assets/images/placeholder.png"
-    alt="doot doot">  -->
-    <img  class="middle" src="/assets/images/layout-grid.png"
-    alt="doot doot"> 
+  <picture class="middle">
+    <source media="(min-width: 800px)" srcset="/assets/images/layout-grid.png">
+    <source media="(max-width: 400px)" srcset="/assets/images/layout-grid-mob.png">
+    <img src="/assets/images/layout-grid.png" alt="doot doot">
+  </picture> 
    <figcaption class="right">Caption</figcaption>
   </figure>
 
@@ -55,9 +54,17 @@ layout: base.html
  </div>
 
 <figure class="grid">
-   <img  class="[ left-alt ] [  ]" src="/assets/images/postits.png"
-    alt="doot doot">
-    <img  class="right-alt" src="/assets/images/personas-alt.png"
+  <picture class="left-alt">
+    <source media="(min-width: 800px)" srcset="/assets/images/postits.png">
+    <source media="(max-width: 400px)" srcset="/assets/images/postits-mob.png">
+    <img src="/assets/images/postits.png" alt="doot doot">
+  </picture> 
+
+  <picture class="right-alt">
+    <img src="/assets/images/personas-alt.png" alt="doot doot">
+  </picture> 
+
+   <img  class="right-alt" src="/assets/images/personas-alt.png"
     alt="doot doot"> 
    <figcaption class="right">Image of post it notes with A11y stuff] We used user profiles to help us review the templates for accessibility issues. We also tested on a range of devices, which gave us much-needed insight into how users of older technology experience the site.</figcaption>
 </figure>   
@@ -105,7 +112,7 @@ layout: base.html
 
 <div class="outro">
    
-   This work helped kick off the first, early explorations for a <a href="https://design-system.service.gov.uk/">Design System</a>. And the streamlined design and front-end also laid the foundations for us to improve user journeys across the site.
+   This work helped kick off the first, early explorations for a <a href="https://design-system.service.gov.uk/">GOV.UK Design System</a>. And the streamlined design and front-end also laid the foundations for us to improve user journeys across the site.
 </div> 
 </section>
 
@@ -120,28 +127,6 @@ layout: base.html
   </div> 
 </section>
 
-<!-- <section>
-<div class="grid">
-<div class="right">
-  <div class="footnotes">
-  <h2>Footnotes</h2>
-
-  <fn id=fn1>This made onboarding a pain and meant that joiners needed extra support for a longer period, putting strain on small teams and making people reticent to hire more junior staff. 
-  
-  <a href="#foot1">ack.</a>
-  </fn>
-
-  <fn id=fn2>We recruited users from a range of backgrounds and asked which device they used most often. If they had a phone, we asked them to bring it in, ensuring we couldn’t introduce bias by using our own smaller set of devices. 
-  
-  <a href="#foot2">ack</a></fn>
-
-  <fn id=fn3>This percentage has grown to 60% in 2023. 
-  
-  <a href="#foot3">ack</a></fn>
-  </div>
-</div>
-</div>
-</section> -->
 
 
 <div class="[ grid ] [ pagination ]">
