@@ -61,11 +61,11 @@ layout: base.html
   </picture> 
 
   <picture class="right-alt">
-    <img src="/assets/images/personas-alt.png" alt="doot doot">
+    <source media="(min-width: 800px)" srcset="/assets/images/personas.png">
+    <source media="(max-width: 400px)" srcset="/assets/images/personas-mob.png">
+    <img src="/assets/images/personas.png" alt="doot doot">
   </picture> 
 
-   <img  class="right-alt" src="/assets/images/personas-alt.png"
-    alt="doot doot"> 
    <figcaption class="right">Image of post it notes with A11y stuff] We used user profiles to help us review the templates for accessibility issues. We also tested on a range of devices, which gave us much-needed insight into how users of older technology experience the site.</figcaption>
 </figure>   
 
