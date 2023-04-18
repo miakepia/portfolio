@@ -22,17 +22,18 @@ layout: base.html
 <div class="[ grid ] [ projects ]">
 <div class="right">
    <h2><span class="gov-logo">GOV.UK</span>Case studies</h2>
-   <h3 id="project-1"><a href="/template">A simpler, clearer GOV.UK</a></h3>
    
-    Rationalising and improving the GOV.UK front-end, making it easier to work on and better to use.  
+   <h3 id="project-3"><a href="/content-types">Exploring GOV.UK as a system</a></h3>
+
+    Investigations into how we could holistically improve the GOV.UK system for both end-users and teams. 
 
    <h3 id="project-2"><a href="/taxonomy">Improving user journeys</a></h3>
 
-    Working with the IA and machine learning to automatically deploy links across thousands of pages.
+    Working with the IA and machine learning to automatically deploy links across thousands of pages.   
 
-   <h3 id="project-3"><a href="/content-types">Exploring GOV.UK as a system</a></h3>
-
-    Investigations into how we could holistically improve the GOV.UK system for both end-users and teams.      
+   <h3 id="project-1"><a href="/template">A simpler, clearer GOV.UK</a></h3>
+   
+    Rationalising and improving the GOV.UK front-end, making it easier to work on and better to use.    
 
 </div>
 </div>
