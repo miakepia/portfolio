@@ -20,15 +20,17 @@ layout: base.html
 <div class="[ grid ] [ projects ]">
 <div class="right">
    <h2><span class="gov-logo">GOV.UK</span>Case studies</h2>
-   <h3 id="project-1"><a href="/template">Template and accessibility fixes</a></h3>
+   <h3 id="project-1"><a href="/template">A simpler, clearer GOV.UK</a></h3>
+   
+    We wanted to make GOV.UK better for users, but this was difficult: inconsistent designs and more than 100 templates made iterating at scale impossible.
 
     My team consolidated 140 unique page templates, improving their design and accessibility. These fixes made the site easier to use and to work on.  
 
-   <h3 id="project-2"><a href="/taxonomy">Launching related links</a></h3>
+   <h3 id="project-2"><a href="/taxonomy">Improving users journeys</a></h3>
 
     A reduced number of templates paved the way for us to make more foundational improvements. My team rationalised the IA and implemented machine generated related links across all content.
 
-   <h3 id="project-3"><a href="/content-types">Experience system</a></h3>
+   <h3 id="project-3"><a href="/content-types">Exploring GOV.UK as a system</a></h3>
 
     The team created a new, overarching taxonomy to sit across the different parts of the site, allowing us to unify and serve all content in one place.    
 

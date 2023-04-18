@@ -8,7 +8,7 @@ layout: base.html
 
 <section>
 <div class="intro">
-   <h1>Exploring a GOV.UK experience system</h1>
+   <h1>Exploring GOV.UK as a system</h1>
     
     By 2021, GOV.UK had gone through two major crisis response projects: Brexit and Covid-19. We’d paused our work on the platform, moving fast to deliver much needed content and services to users.  
 </div> 
@@ -19,22 +19,23 @@ layout: base.html
   <div class="right">
    <h2>The challenge</h2>
 
-    The pace and chaos of these projects led to building bespoke solutions rather than iterating, and we’d started to undo much of our work to streamline and improve the system.
+    The pace and chaos of these projects led to building bespoke solutions rather than iterating, and we’d started to undo much of our work to streamline and improve the site.
 
     When the dust settled, we knew we had to make a range of updates to platform and how we worked on it. 
+
+    I collaborated with design and product leadership to define the GOV.UK strategy for 2022–23. A key focus of the strategy is to ‘fix the basics’, laying the foundations for ambitious future delivery that depends on a solid, resilient platform.
 </div>
 </div>
 
 <figure class="grid">
   <div class="[ quote ] [ right ]">
-    <blockquote><h3><span class="gov-logo">GOV.UK</span> strategy 2022</h3>
+    <blockquote><h3><span class="gov-logo">GOV.UK</span></h3>
     Build a <span id="simple">simple,<a href="#fn1"><sup id="one">1</sup></span></a><span id="joined-up"> joined-up<a href="#fn2"><sup>2</sup></span></a>  and <span id="personalised">personalised<a href="#fn3"><sup id="three">3</sup></a></span> experience of government <span id="everyone"> for  everyone<a href="#fn4"><sup>4</sup></a></span>
     
   </blockquote>
   </div>
 
   <figcaption class="right">
-      Drawing on the work done in 2017–18, I collaborated with design and product leadership to define the GOV.UK strategy for 2022–23. A key focus of the strategy is to ‘fix the basics’, laying the foundations for ambitious future delivery that depends on a solid, resilient platform.
     <div class="footnotes">
     Footnotes:
         <fn id=fn1>1. A resilient and scalable platform</fn>
@@ -59,27 +60,22 @@ layout: base.html
   <div class="right">
     <h3>Research</h3>
 
-    Interviews with publishers revealed that most hacking or misusing content types is often necessary—the GOV.UK publishing apps are siloed, and many publishers don’t have access to needed features. 
+    Interviews with publishers revealed that many were misusing content types because they weren't fit for purpose. This hinders navigation by undermining the IA. 
 
-    Misuse of content types hinders search and related links by miscategorising content and undermining the IA. This was exacerbated by teams changing content types in ways that went against their purpose. 
+    These issues were exacerbated by teams using fragmented resources: tech docs, component libraries and content guidance were siloed and contradictory .
 
-    Resources were fragmented and contradictory: technical documentation, component libraries and content guidance used different terminology, creating confusion. 
+    Finally, there was little information on how past decisions were made, or why.
 
-    There was also little governance around who made decisions, and what those decisions were based on.
-</div>
-</div>
+ </div>
+ </div>
 
 <div class="grid">
 <div class="right">
-  <h3>Explored structured features</h3>
+  <h3>We explored structured content</h3>
 
-    Publishers needed content types that were scoped in purpose but flexible in features. To achieve this flexibility, we explored how to structure content and separate it from its presentation. 
+    Publishers needed content types that had flexible features. To achieve this, we explored how to structure content and separate it from its presentation. 
 
-    We developed typologies to guide our content types. Instead of individual types with their own templates, the typologies could express a range of features.
-
-    Syncing with the publishing permissions team, we prototyped a flexible template to deliver five different content types. The published content is determined by which features the publisher chooses.
-
-    Structured content also unlocks content distribution across the site and external technologies. This will be used to build personalised guidance for users who are signed in and have given permission to use data they’ve made available. 
+    Structured content also unlocks content distribution across the site, meaning we could build personalised features for users who have signed in and shared their data with us. 
 </div>
 </div>
 
@@ -87,16 +83,17 @@ layout: base.html
    <img  class="[ middle ]" src="/assets/images/personalised-guide.svg"
     alt="An illustration of guide content, showing different ways it could be personalised using structured content"> 
    <figcaption class="[ right ]
-   ">Caption.</figcaption>
+   ">Guidance could be tailored to users by providing contextual information. This is powered by structured content that can be pulled from databases across government.</figcaption>
   </figure>
 
 <div class="grid">
 <div class="right">
   <h3>We prototyped flexible templates</h3>
 
-    Syncing with a different team’s work on publishing permissions, we prototyped a flexible template to deliver a range of content types. The published content is determined by which features the publisher chooses, providing greater flexibility and reducing misuse. 
+    We designed and prototyped a template to deliver several different content types. Features are controlled by the publisher, providing greater flexibility and reducing content type misuse. 
+    
+    Publishing would be controlled with permissions instead of needing separate applications for different content types.
 
-    Using flexible templates risks a chaotic situation where publishers do as they please. To address this, we developed a range of content ‘typologies’ — each with defined use cases, features and usability considerations. Typologies keep content types organised and tightly scoped in line with their purpose.
 </div>
 </div>
 
@@ -104,20 +101,18 @@ layout: base.html
   <picture class="right">
     <img src="/assets/images/template.svg" alt="An illustration of a flexible template for GOV.UK, with a range of options for publishers to choose">
   </picture> 
-   <figcaption class="right">Caption.</figcaption>
+   <figcaption class="right">Flexible features and a permissions-based model would let us reduce the number of applications we maintain.</figcaption>
   </figure>
 
 <div class="grid">  
 <div class="right">
-  <h3>Shaped an ‘experience system'</h3>
+  <h3>We piloted better documentation</h3>
 
-    Research revealed that there were no standard processes for teams on GOV.Uk to rely on when working. 
-
-    Many people didn’t know what resources existed, and knowledge often disappeared when team members left.   
+    Research revealed that there were no standard processes for teams on GOV.Uk to rely on when working. Many people didn’t know what resources existed, and knowledge often disappeared when team members left.   
 
     Most pressingly, we needed a way to make sure that work done was always aligned with the GOV.UK strategy. Teams needed to understand the why, not just the how of decision making.
 
-    We started pulling together all the known documentation and rewriting it in a user friendly way. We also began to tease out a long-term governance model by exposing the parts, people and process working on GOV.UK.
+    We started pulling together all the known documentation and rewriting it in a user centred way. We also began to tease out a long-term governance model by exposing the parts, people and process of working on GOV.UK.
 </div>
 </div>
 
@@ -127,7 +122,7 @@ layout: base.html
     <source media="(max-width: 600px)" srcset="/assets/images/documentation-mob.svg">
     <img src="/assets/images/documentation.svg" alt="An illustrated example of what good documentation on GOV.UK looks like">
    </picture>  
-   <figcaption class="right">We started pulling together all the known documentation and rewriting it in a user friendly way. We also began to tease out a long-term governance model by exposing the parts, people and process of working on GOV.UK.</figcaption>
+   <figcaption class="right">Documentation doesn't have to focus only on the technical parts. The way something is made should be defined by the purpose and strategy behind it.</figcaption>
   </figure>
 </section>
 
@@ -136,18 +131,18 @@ layout: base.html
 <div class="right">
   <h2>Outcomes</h2>
 
-    To make other teams fall in love with these problems, we brought the recommendations to life with stories, prototypes and future scenarios.
+    To make teams fall in love with these ideas, we brought them to life with stories, prototypes and future scenarios.
 
-    The report, recommendations and prototypes were all crafted to work separately and together. We understood that these things are often widely shared and used to influence decisions at many levels. 
+    Our deliverables were crafted to work separately and together so they can be widely shared and used to influence decisions at all levels. 
 
-    Teams were provided with a loose structure for their documentation, and feedback processes were put in place to discuss how to improve and iterate. Regular pairing and sharing of work helps embed better ways of working.
+    It was important to bring people along, and teams were invited to collaborative sessions to brainstorm how these ideas would enable their work.
 </div>
 </div>
 
 
   <div class="outro">
    
-   There will always be more to do, but working on GOV.UK is becoming simpler, clearer and faster.
+   [There will always be more to do, but working on GOV.UK is becoming simpler, clearer and faster.]
   </div>
 </section>
 
