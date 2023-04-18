@@ -84,7 +84,7 @@ layout: base.html
 </div>
 
 <figure class="grid">
-   <img  class="[ middle ]" src="/assets/images/personalised-guide.png"
+   <img  class="[ middle ]" src="/assets/images/personalised-guide.svg"
     alt="An illustration of guide content, showing different ways it could be personalised using structured content"> 
    <figcaption class="[ right ]
    ">Caption.</figcaption>
@@ -102,9 +102,7 @@ layout: base.html
 
 <figure class="grid">
   <picture class="right">
-    <source media="(min-width: 800px)" srcset="/assets/images/template.png">
-    <source media="(max-width: 400px)" srcset="/assets/images/template-mob.png">
-    <img src="/assets/images/template.png" alt="An illustration of a flexible template for GOV.UK, with a range of options for publishers to choose">
+    <img src="/assets/images/template.svg" alt="An illustration of a flexible template for GOV.UK, with a range of options for publishers to choose">
   </picture> 
    <figcaption class="right">Caption.</figcaption>
   </figure>
@@ -125,9 +123,9 @@ layout: base.html
 
 <figure class="grid">
    <picture class="middle">
-    <source media="(min-width: 800px)" srcset="/assets/images/documentation.png">
-    <source media="(max-width: 400px)" srcset="/assets/images/documentation-mob.png">
-    <img src="/assets/images/documentation.png" alt="An illustrated example of what good documentation on GOV.UK looks like">
+    <source media="(min-width: 800px)" srcset="/assets/images/documentation.svg">
+    <source media="(max-width: 600px)" srcset="/assets/images/documentation-mob.svg">
+    <img src="/assets/images/documentation.svg" alt="An illustrated example of what good documentation on GOV.UK looks like">
    </picture>  
    <figcaption class="right">We started pulling together all the known documentation and rewriting it in a user friendly way. We also began to tease out a long-term governance model by exposing the parts, people and process of working on GOV.UK.</figcaption>
   </figure>

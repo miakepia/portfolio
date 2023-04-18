@@ -55,9 +55,9 @@ layout: base.html
 
 <figure class="grid">
   <picture class="left-alt">
-    <source media="(min-width: 800px)" srcset="/assets/images/postits.png">
-    <source media="(max-width: 400px)" srcset="/assets/images/postits-mob.png">
-    <img src="/assets/images/postits.png" alt="Illustrated post it notes with notes about accessibility written on them">
+    <source media="(min-width: 800px)" srcset="/assets/images/postits.svg">
+    <source media="(max-width: 400px)" srcset="/assets/images/postits-mob.svg">
+    <img src="/assets/images/postits.svg" alt="Illustrated post it notes with notes about accessibility written on them">
   </picture> 
 
   <picture class="right-alt">

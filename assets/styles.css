@@ -89,16 +89,6 @@ section {
   font-size: var(--small);
 }
 
-footer {
-  border-top: 1px solid var(--body);
-  padding-top: var(--padding-5);
-}
-
-.site-footer p {
-  font-size: var(--small);
-  padding-bottom: 0px;
-}
-
 /* Work: Projects */
 .projects a {
   font-size: var(--medium);
@@ -352,6 +342,17 @@ blockquote a {
   text-decoration: none;
 }
 
+/* Footer */
+footer {
+  border-top: 1px solid var(--body);
+  padding-top: var(--padding-5);
+}
+
+.site-footer p {
+  font-size: var(--small);
+  padding-bottom: 0px;
+}
+
 /* Strategy blockquote */
 #simple {
  display: inline-block;
@@ -385,7 +386,7 @@ blockquote a {
 }
 
 .credits h2 {
-  padding-bottom: 0;
+  padding-bottom: 5px;
 }
 
 .credits p:last-child {
@@ -423,6 +424,7 @@ ol {
     padding-top: var(--padding-3);
     padding-bottom: var(--padding-3);
     border-top: 1px solid var(--body);
+    line-height: 1.3;
   }
 
   .prev a, .next a {
@@ -448,6 +450,7 @@ ol {
 
   .prev::before  {
     content: 'Previous project';
+    padding-top: var(--padding-1);
   }
 
   .next::before  {
