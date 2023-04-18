@@ -34,7 +34,7 @@ layout: base.html
   <picture class="middle">
     <source media="(min-width: 800px)" srcset="/assets/images/layout-grid.png">
     <source media="(max-width: 400px)" srcset="/assets/images/layout-grid-mob.png">
-    <img src="/assets/images/layout-grid.png" alt="doot doot">
+    <img src="/assets/images/layout-grid.png" alt="A grid of some of the layouts on GOV.UK in 2016">
   </picture> 
    <figcaption class="right">Caption</figcaption>
   </figure>
@@ -57,13 +57,13 @@ layout: base.html
   <picture class="left-alt">
     <source media="(min-width: 800px)" srcset="/assets/images/postits.png">
     <source media="(max-width: 400px)" srcset="/assets/images/postits-mob.png">
-    <img src="/assets/images/postits.png" alt="doot doot">
+    <img src="/assets/images/postits.png" alt="Illustrated post it notes with notes about accessibility written on them">
   </picture> 
 
   <picture class="right-alt">
     <source media="(min-width: 800px)" srcset="/assets/images/personas.png">
     <source media="(max-width: 400px)" srcset="/assets/images/personas-mob.png">
-    <img src="/assets/images/personas.png" alt="doot doot">
+    <img src="/assets/images/personas.png" alt="A photo of a woman reading some posters on a wall">
   </picture> 
 
    <figcaption class="right">Image of post it notes with A11y stuff] We used user profiles to help us review the templates for accessibility issues. We also tested on a range of devices, which gave us much-needed insight into how users of older technology experience the site.</figcaption>
@@ -88,7 +88,7 @@ layout: base.html
 
 <figure class="grid">
    <img  class="[ right ]" src="/assets/images/mobile.png"
-    alt="doot doot"> 
+    alt="A photograph of a man using GOV.UK on his mobile phone"> 
    <figcaption class="right">In 2016, 40% of our users were on mobile devices. By 2023, this percentage had grown to over 60%, making the mobile improvements even more important.</figcaption>
   </figure>
 </section>

@@ -30,12 +30,15 @@ layout: base.html
     
 </div>
 </div>
+
+<figure class="grid">
   <picture class="middle">
     <source media="(min-width: 800px)" srcset="/assets/images/site-headers.png">
     <source media="(max-width: 400px)" srcset="/assets/images/site-headers-mob.png">
-    <img src="/assets/images/site-headers.png" alt="doot doot">
+    <img src="/assets/images/site-headers.png" alt="A photograph of a man looking at a wall, with a picture of the GOV.UK site headers printed on it">
  </picture>
-   <figcaption class="right">GOV.UK looks and feels like a single domain, but is made up of several smaller parts, all powered by different publishing applications. </figcaption>
+
+  <figcaption class="right">GOV.UK looks and feels like a single domain, but is made up of several smaller parts, all powered by different publishing applications. </figcaption>
   </figure>
 
 <div class="grid">
@@ -60,10 +63,10 @@ layout: base.html
 
 <figure class="grid"> 
     
-  <picture class="right">
+  <picture class="middle">
     <source media="(min-width: 800px)" srcset="/assets/images/taxonomy-alt.png">
     <source media="(max-width: 400px)" srcset="/assets/images/taxonomy-mob.png">
-    <img src="/assets/images/taxonomy-alt.png" alt="doot doot">
+    <img src="/assets/images/taxonomy-alt.png" alt="An illustration of the GOV.UK taxonomy">
   </picture>
 
    <figcaption class="right">The universal taxonomy allowed us to understand the breadth and depth of our content, and consider how best to present it to users.</figcaption>
@@ -85,7 +88,7 @@ layout: base.html
    <picture class="middle">
     <source media="(min-width: 800px)" srcset="/assets/images/domain.png">
     <source media="(max-width: 400px)" srcset="/assets/images/domain-mob.png">
-    <img src="/assets/images/domain.png" alt="doot doot">
+    <img src="/assets/images/domain.png" alt="An illustration of a the GOV.UK domain map">
   </picture>
 
    <figcaption class="right">Once we understood the domain and the relationships between objects, we could begin to understand and predict how users might need to move through the site.</figcaption>
@@ -112,7 +115,7 @@ layout: base.html
    <picture class="middle">
     <source media="(min-width: 800px)" srcset="/assets/images/jobs-spreadsheet.png">
     <source media="(max-width: 400px)" srcset="/assets/images/jobs-spreadsheet-mob.png">
-    <img src="/assets/images/jobs-spreadsheet.png" alt="doot doot">
+    <img src="/assets/images/jobs-spreadsheet.png" alt="A spreadsheet with jobs to be done mapped to content types">
   </picture>
 
   <figcaption class="right">Caption.</figcaption>
@@ -150,7 +153,7 @@ layout: base.html
   <picture class="middle">
     <source media="(min-width: 800px)" srcset="/assets/images/link-formula.png">
     <source media="(max-width: 400px)" srcset="/assets/images/link-formula-mob.png">
-    <img src="/assets/images/link-formula.png" alt="doot doot">
+    <img src="/assets/images/link-formula.png" alt="An illustration of how links are created, using metadata, content types, jobs and tasks, key words and the tacxonomy">
   </picture>
 
   <figcaption class="right">We were able to combine jobs, objects and taxonomy elements to predict where users needed to go next.</figcaption>

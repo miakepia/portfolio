@@ -40,26 +40,26 @@ layout: base.html
   
  <div class="grid">     
  
- <img  class="left-small" src="/assets/images/exebenus.png" alt="doot doot"> 
- <img  class="right-big" src="/assets/images/exebenus2.png" alt="doot doot"> 
+ <img  class="left-small" src="/assets/images/exebenus.png" alt="Exebenus logo mark"> 
+ <img  class="right-big" src="/assets/images/exebenus2.png" alt="Exebenus website treatment shown on a laptop"> 
 
- <img  class="middle" src="/assets/images/bf-postcards.png" alt="doot doot"> 
+ <img  class="middle" src="/assets/images/bf-postcards.png" alt="Baby Friendly promotional postcards"> 
 
  <img  class="left-big" src="/assets/images/placeholder.png" alt="doot doot"> 
  <img  class="right-small" src="/assets/images/placeholder.png" alt="doot doot"> 
 
- <img  class="left-half" src="/assets/images/pnt1.png" alt="doot doot"> 
- <img  class="right-half" src="/assets/images/pnt2.png" alt="doot doot"> 
+ <img  class="left-half" src="/assets/images/pnt1.png" alt="A screenshot of a web page layout from Post Normal Times"> 
+ <img  class="right-half" src="/assets/images/pnt2.png" alt="A man holds a mobile phone in his hand, showing a webpage from Post Normal Times"> 
 
  <img  class="left-small" src="/assets/images/placeholder.png" alt="doot doot"> 
- <img  class="right-big" src="/assets/images/mission-patches.png" alt="doot doot"> 
+ <img  class="right-big" src="/assets/images/mission-patches.png" alt="Stickers for kids"> 
  
 
  <picture class="middle">
     <source media="(min-width: 800px)" srcset="/assets/images/desk.png">
     <source media="(max-width: 400px)" srcset="/assets/images/mob.png">
     <img src="/assets/images/desk.png"/>
-</picture>
+ </picture>
 
 </div>
 
