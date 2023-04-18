@@ -12,7 +12,7 @@ layout: base.html
   
    I'm a design lead living and working in London. 
 
-   Since 2016 I've been a designer at the UK <a href="https://www.gov.uk/government/organisations/government-digital-service">Government Digital Service</a>, making things better for users and teams on <a href="https://www.gov.uk/">GOV.UK</a>. 
+   Since 2016 I've been a designer at the UK <a href="https://www.gov.uk/government/organisations/government-digital-service">Government Digital Service</a>, making things better for users and teams on <a href="https://www.gov.uk/government/organisations/government-digital-service">GOV.UK. 
 
   </div>
     <img  class="about-img" src="/assets/images/portrait.png" alt="An illustration of me, Mia!"> 
@@ -57,8 +57,14 @@ layout: base.html
     <img src="/assets/images/bf-postcards.png" alt="Baby Friendly promotional postcards">
 </picture> 
 
- <img  class="left-half" src="/assets/images/pnt1.png" alt="A man holds a mobile phone in his hand, showing a webpage from Post Normal Times"> 
- <img  class="right-half" src="/assets/images/pnt2.png" alt="A man holds a mobile phone in his hand, showing a webpage from Post Normal Times"> 
+ <img  class="left-half" src="/assets/images/pnt1.png" alt="A screenshot of a page from the Post Normal Times website">
+
+<picture class="right-half">
+    <source media="(min-width: 800px)" srcset="/assets/images/pnt2.png">
+    <source media="(max-width: 450px)" srcset="/assets/images/pnt2-mob.png">
+    <img src="/assets/images/pnt2.png" alt="A man holds a mobile phone in his hand, showing a webpage from Post Normal Times">
+</picture> 
+
 
  <img  class="left-big" src="/assets/images/mission-patches.png" alt="Stickers for kids"> 
 
