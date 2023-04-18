@@ -89,6 +89,11 @@ section {
   font-size: var(--small);
 }
 
+.home {
+  font-family: 'acumin-pro', 'sans-serif';
+  font-size: var(--small);
+}
+
 /* Work: Projects */
 .projects a {
   font-size: var(--medium);
