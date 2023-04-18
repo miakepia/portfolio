@@ -128,7 +128,7 @@ layout: base.html
 <div class="[ grid ] [ pagination ]">
   <div class="right">
     <div class="next">
-      <a href="/taxonomy">Improving users journeys on GOV.UK</a>
+      <a href="/taxonomy">Improving user journeys on GOV.UK</a>
     </div>
   </div>
 </div>

@@ -161,7 +161,7 @@ layout: base.html
 <div class="[ grid ] [ pagination ]">
   <div class="right">
     <div class="prev">
-      <a href="/taxonomy">Improving GOV.UK navigation and IA</a>
+      <a href="/taxonomy">Improving user journeys on GOV.UK</a>
     </div>
   </div>
 </div>

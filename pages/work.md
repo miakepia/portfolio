@@ -9,9 +9,7 @@ layout: base.html
 <div class="intro">
    <h1>Work</h1>
     
-    For the past few years, I've been working at the Government Digital Service. I like to fix the basics. Something else, something else, probably.
-
-    Since 2016 I've been working on improving the GOV.UK platform. 
+    Since 2016 I've been a designer at the UK Government Digital Service, making things better for users and teams on GOV.UK. 
      
 </div> 
 </section>
@@ -22,17 +20,15 @@ layout: base.html
    <h2><span class="gov-logo">GOV.UK</span>Case studies</h2>
    <h3 id="project-1"><a href="/template">A simpler, clearer GOV.UK</a></h3>
    
-    We wanted to make GOV.UK better for users, but this was difficult: inconsistent designs and more than 100 templates made iterating at scale impossible.
+    Rationalising and improving the GOV.UK front-end, making it easier to work on and better to use.  
 
-    My team consolidated 140 unique page templates, improving their design and accessibility. These fixes made the site easier to use and to work on.  
+   <h3 id="project-2"><a href="/taxonomy">Improving user journeys</a></h3>
 
-   <h3 id="project-2"><a href="/taxonomy">Improving users journeys</a></h3>
-
-    A reduced number of templates paved the way for us to make more foundational improvements. My team rationalised the IA and implemented machine generated related links across all content.
+    Working with the IA and machine learning to automatically deploy links across thousands of pages.
 
    <h3 id="project-3"><a href="/content-types">Exploring GOV.UK as a system</a></h3>
 
-    The team created a new, overarching taxonomy to sit across the different parts of the site, allowing us to unify and serve all content in one place.    
+    Investigations into how we could holistically improve the GOV.UK system for both end-users and teams.      
 
 </div>
 </div>
@@ -40,7 +36,7 @@ layout: base.html
 
 <section class="gallery">
 <div class="[ grid ]">  
-  <h2 class="right">Selected works</h2>
+  <h2 class="right">Previous work</h2>
 </div>
 
 
@@ -56,6 +52,7 @@ layout: base.html
     <img src="/assets/images/bf-postcards.png" alt="Baby Friendly promotional postcards">
 </picture> 
 
+ <img  class="left-half" src="/assets/images/pnt1.png" alt="A man holds a mobile phone in his hand, showing a webpage from Post Normal Times"> 
  <img  class="right-half" src="/assets/images/pnt2.png" alt="A man holds a mobile phone in his hand, showing a webpage from Post Normal Times"> 
 
  <img  class="left-big" src="/assets/images/mission-patches.png" alt="Stickers for kids"> 

@@ -8,7 +8,7 @@ layout: base.html
 
 <section>
 <div class="intro">
-   <h1>Improving users journeys on GOV.UK</h1>
+   <h1>Improving user journeys on GOV.UK</h1>
     
   In 2018, a user couldn't move easily from one part of GOV.UK to another. The website was made up of three separate and siloed areas, with no reliable way of navigating across them. 
     
@@ -24,7 +24,7 @@ layout: base.html
 
   Having three websites masquerading as one is a problem.
 
-  The main navigation, page layouts, related links, and breadcrumbs all worked differently depending on which part of the site you were in. 
+  The main navigation, page layouts, related links, and breadcrumbs all worked differently depending on you where you were. 
 
   There were two separate topic systems, and no way to tag a piece of content to both. Related links needed to be curated by publishers, but even they didn’t know how to navigate the two taxonomies to find the right pages.
     
@@ -94,7 +94,7 @@ layout: base.html
     <img src="/assets/images/domain.svg" alt="An illustration of a the GOV.UK domain map">
   </picture>
 
-   <figcaption class="right">Once we understood the domain and the relationships between objects, we could begin to understand and predict how users might need to move through the site.</figcaption>
+   <figcaption class="right">Once we understood the domain we could begin to predict how users might need to move across the site.</figcaption>
 </figure>
 
 <div class="grid">
@@ -144,7 +144,7 @@ layout: base.html
     <img src="/assets/images/link-formula.png" alt="An illustration of how links are created, using metadata, content types, jobs and tasks, key words and the tacxonomy">
   </picture>
 
-  <figcaption class="right">We were able to combine jobs, objects and taxonomy elements to predict where users needed to go next.</figcaption>
+  <figcaption class="right">We created a range of formulas to train an algorithm to suggest related links.</figcaption>
 </figure>
 </section>
 
@@ -163,7 +163,7 @@ layout: base.html
 
 <div class="outro">
 
-    This foundational work provides the basis for further, ambitious improvements to the platform in the coming years. It was also the first step towards approaching GOV.UK as a system.
+    This foundational work provides the basis for further, ambitious improvements to the platform in the coming years. 
 </div>
 </section>
 
