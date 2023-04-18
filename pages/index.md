@@ -65,6 +65,8 @@ layout: base.html
     <img src="/assets/images/pnt2.png" alt="A man holds a mobile phone in his hand, showing a webpage from Post Normal Times">
 </picture> 
 
+ <img  class="middle" src="/assets/images/pride.png" alt="A range of digital posters for Pride"> 
+
 
  <img  class="left-big" src="/assets/images/mission-patches.png" alt="Stickers for kids"> 
 
