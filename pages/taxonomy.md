@@ -48,7 +48,7 @@ layout: base.html
 
   Most user journeys on GOV.UK begin on a content page. This means that related links — not navigation pages — are one of the best ways to help users find what they need. 
 
-  Unfortunately, the vast majority of content on the site had no related links at all. We wanted to find a way to use machine learning to add links to pages so that publishers weren't overwhelmed with the work .
+  Unfortunately, the vast majority of content on the site had no related links at all. We wanted to find a way to use machine learning to add links to pages so that publishers weren't overwhelmed with an impossible task.
 </div>
 </div>
 
@@ -56,7 +56,7 @@ layout: base.html
 <div class="right">
    <h2>What we did</h2>
 
-  We realised early on that to fix navigation, we needed to fix the foundations of how GOV.UK fit together. 
+  We realised early on that to fix navigation, we needed to fix the foundations of how GOV.UK fit together. We needed a robust and scaleable information architecture. 
 
   <h3>We tackled the taxonomy</h3>
 
@@ -80,7 +80,7 @@ layout: base.html
 
   <h3>We mapped the domain</h3>
 
-  Mapping the domain meant bringing together everything that made up the website and exposing their relationships. For example, a ‘Minister’ can give a ‘Speech’ on behalf of a ‘Department’. 
+  Mapping the domain meant bringing together all the parts of the website and exposing their relationships. For example, a ‘Minister’ can give a ‘Speech’ on behalf of a ‘Department’. 
 
   Once we had an overview of the domain, we needed a way to organise and prioritise things in a way that would be easy for users to understand.
 
@@ -102,11 +102,9 @@ layout: base.html
 
 <h3>We organised content for our users</h3>
 
-  Users have different needs depending on what they are doing. By defining the ‘jobs’ and 'tasks' our users do, we were able to figure out what type of content they need to see, and when.
+  Users have different needs depending on what they are doing. By defining the ‘jobs’ and 'tasks' our users do, we were able to figure out what type of content they needed, and when.
 
-  Each user job corresponds to a different type of content.
-
-  We ran a series of card sorting sessions and tree tests with publishers and end users to map content types to jobs. This gave us insight into which pages needed to link together.
+  Each user job corresponds to a different type of content. We ran a series of card sorting sessions and tree tests with publishers and end-users to map content types to jobs. This gave us insight into which pages needed to link together.
 </div>
 </div>
 
@@ -123,11 +121,9 @@ layout: base.html
 
 <div class="grid">
 <div class="right">
-  <h3>We shipped related links</h3>
+  <h3>We used machine learning</h3>
 
-  We understood how the site fits together, and we had a rich, deep taxonomy. Jobs gave us a way to understand journeys and prioritise features.
-
-  By combining these elements, we were able to begin writing related link ‘formulas’ that could be generated automatically using machine learning.
+  We understood how the site fits together, and we had a rich, deep taxonomy. Jobs gave us a way to understand journeys and prioritise features. We used these elements with machine learning to generate related links.
 
   Publishers could choose from a list of machine-generated related links or add their own. We could now add related links to the thousands of pages that had none.
 
@@ -163,7 +159,7 @@ layout: base.html
 
 <div class="outro">
 
-    This foundational work provides the basis for further, ambitious improvements to the platform in the coming years. 
+    This foundational work provides the basis for structured content, publishing improvements and better navigation.
 </div>
 </section>
 

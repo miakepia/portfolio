@@ -9,7 +9,9 @@ layout: base.html
 <div class="intro">
    <h1>A simpler, clearer GOV.UK</h1>
   
-    We wanted to make GOV.UK better for users, but this was difficult: inconsistent designs and more than 100 templates made iterating at scale impossible.
+    Four years after it was launched, visitors to GOV.UK were struggling with an unpredictable and inaccessible experience. 
+    
+    We wanted to make GOV.UK better for users, but this was difficult: variable designs and a complicated front-end made iterating at scale impossible.
 
 </div> 
 </section>
@@ -20,10 +22,9 @@ layout: base.html
   <div class="right">
    <h2>The challenge</h2>
 
-    Five years after GOV.UK was launched, users visiting GOV.UK were struggling to deal with an unpredictable and inaccessible experience. 
+    Over the years, the site had become complicated and difficult for both designers and developers to make sense of. Layouts, design elements and code were iconsistent. 
     
-    The front-end had become complicated and difficult for both designers and developers to make sense of. Many told us they didn’t understand how each template worked or what it did. The sheer number of templates also made accessibility and layout improvements difficult. 
-
+    Having over 100 templates also made accessibility and layout improvements almost impossible. 
 </div>
 </div>
 
@@ -40,13 +41,14 @@ layout: base.html
 <div class="grid">
   <div class="right">
    <h2>What we did</h2>
+
+    Content pages are visited more than any other pages, so our starting goal was to reduce the number of content page layouts on the site. These were made up of 140 templates, all with different design elements.
+
    <h3>Research and design audit</h3>
 
-    To get started, I combed through five years of research on GOV.UK. This helped us to see the bigger picture and approach the problem holistically.
+    To get started, I combed through four years of research on GOV.UK. This helped us to see the bigger picture and approach the problem holistically.
 
-    Our starting goal was to reduce the number of uniqe content page layouts on the site. Content pages are the most useful, and used, by visitors to GOV.UK. They were made up of 140 unique page templates, all with different design elements.
-
-    Our new designs also aimed to be accessible. We reviewed the current templates and layouts and found a number of issues that needed fixing. 
+    We reviewed the current templates and layouts to figure out how we could improve not just the design, but also the accessibility of the site.
   </div>
  </div>
 
@@ -76,8 +78,8 @@ layout: base.html
 
     We used a range of methods to test our designs and measure success, including:
   <ul>
-    <li>Internal confidence surveys</li>
-    <li>Usability testing with users on mobile and desktop.</li>
+    <li>Internal confidence surveys for those who worked on templates</li>
+    <li>Usability testing with users on mobile and desktop</li>
     <li>AB tests to measure the success of layouts and components at scale</li>
   </ul>
 </div>

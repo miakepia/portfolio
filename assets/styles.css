@@ -500,7 +500,7 @@ img {
     /* Sizing */
     --small: 2.4rem;
     --medium: 3rem;
-    --large: 3.3rem;
+    --large: 3.5rem;
   }  
   .left {
     grid-column: 1 / span 6;
