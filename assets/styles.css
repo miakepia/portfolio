@@ -71,9 +71,9 @@ section {
 }
 
 .main-nav a {
-  float: right;
+  /* float: right; */
   font-weight: bold;
-  padding-left: var(--padding-1);
+  /* padding-left: var(--padding-1); */
 }
 
 .main-nav h1, .main-nav a {

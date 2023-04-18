@@ -138,12 +138,6 @@ layout: base.html
     It was important to bring people along, and teams were invited to collaborative sessions to brainstorm how these ideas would enable their work.
 </div>
 </div>
-
-
-  <div class="outro">
-   
-   [There will always be more to do, but working on GOV.UK is becoming simpler, clearer and faster.]
-  </div>
 </section>
 
 <section>
