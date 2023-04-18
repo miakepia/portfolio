@@ -36,7 +36,7 @@ layout: base.html
   <figcaption class="right">
       Drawing on the work done in 2017–18, I collaborated with design and product leadership to define the GOV.UK strategy for 2022–23. A key focus of the strategy is to ‘fix the basics’, laying the foundations for ambitious future delivery that depends on a solid, resilient platform.
     <div class="footnotes">
-    Footnotes:
+    The strategy for 2022 would be realised through a range of deliverables:
         <fn id=fn1>1. A resilient and scalable platform</fn>
         <fn id=fn2>2. Empowered departments</fn>
         <fn id=fn3>3. Distributed content</fn>
