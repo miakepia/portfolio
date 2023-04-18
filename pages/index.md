@@ -72,8 +72,11 @@ layout: base.html
     <img src="/assets/images/pride.png" alt="A range of digital posters for Pride">
 </picture> 
 
+ <img  class="left-half" src="/assets/images/uia-2.png" alt="A newspaper layout"> 
+ <img  class="right-half" src="/assets/images/uia-1.png" alt="A newspaper layout"> 
 
- <img  class="left-big" src="/assets/images/mission-patches.png" alt="Stickers for kids"> 
+
+ <img  class="right-big" src="/assets/images/mission-patches.png" alt="Stickers for kids"> 
 
 </div>
 </section>
