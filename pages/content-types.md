@@ -37,7 +37,7 @@ layout: base.html
 
   <figcaption class="right">
     <div class="footnotes">
-    Footnotes:
+    The strategy for 2022 would be realised through a range of deliverables:
         <fn id=fn1>1. A resilient and scalable platform</fn>
         <fn id=fn2>2. Empowered departments</fn>
         <fn id=fn3>3. Distributed content</fn>
