@@ -11,7 +11,7 @@ layout: base.html
   
     Four years after it was launched, visitors to GOV.UK were struggling with an unpredictable and inaccessible experience. 
     
-    We wanted to make GOV.UK better for users, but this was difficult: variable designs and a complicated front-end made iterating at scale impossible.
+    We wanted to make things better for users, but this was difficult: variable designs and a complicated front-end made iterating at scale impossible.
 
 </div> 
 </section>
