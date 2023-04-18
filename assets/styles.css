@@ -104,6 +104,10 @@ footer {
   font-size: var(--medium);
 }
 
+.projects {
+  padding-bottom: var(--padding-5);
+}
+
 #project-1::before, #project-2::before, #project-3::before {
   font-family: 'IBM Plex serif', 'serif';
   font-weight: normal;
