@@ -19,7 +19,7 @@ layout: base.html
   <div class="right">
    <h2>The challenge</h2>
 
-    The pace and chaos of these projects led to building bespoke solutions rather than iterating, and we’d started to undo much of our work to streamline and improve the site.
+    The pace and chaos of these projects led to building bespoke solutions rather than iterating, and we’d started to undo previous work to streamline and improve the site.
 
     When the dust settled, we knew we had to make a range of updates to platform and how we worked on it. 
 
