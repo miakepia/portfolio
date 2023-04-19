@@ -51,11 +51,13 @@ layout: base.html
  <img  class="right-big" src="/assets/images/exebenus2.png" alt="Exebenus website treatment shown on a laptop"> 
 
 
-<picture class="left-big">
+<!-- <picture class="left-big">
     <source media="(min-width: 800px)" srcset="/assets/images/bf-postcards.png">
     <source media="(max-width: 400px)" srcset="/assets/images/bf-postcards-mob.png">
     <img src="/assets/images/bf-postcards.png" alt="Baby Friendly promotional postcards">
-</picture> 
+</picture>  -->
+
+<img class="middle" src="/assets/images/bf-postcards-mob.png" alt="Baby Friendly promotional postcards">
 
  <img  class="left-half" src="/assets/images/pnt1.png" alt="A screenshot of a page from the Post Normal Times website">
 
