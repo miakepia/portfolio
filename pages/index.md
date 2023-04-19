@@ -77,6 +77,8 @@ layout: base.html
  <img  class="left-half" src="/assets/images/uia-2.png" alt="A newspaper layout"> 
  <img  class="right-half" src="/assets/images/uia-1.png" alt="A newspaper layout"> 
 
+ <img  class="right-big" src="/assets/images/stickers.png" alt="Stickers for kids"> 
+
 <picture class="middle">
     <source media="(min-width: 800px)" srcset="/assets/images/hm4.png">
     <source media="(max-width: 450px)" srcset="/assets/images/hm5.png">
@@ -85,7 +87,6 @@ layout: base.html
 
  <img  class="left-big" src="/assets/images/crane.png" alt="An illustration of a Crane bird"> 
 
- <img  class="right-big" src="/assets/images/mission-patches.png" alt="Stickers for kids"> 
 
 </div>
 </section>
