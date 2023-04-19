@@ -616,7 +616,7 @@ img {
   }
   .left-big, .right-big, .left-half, .right-half, .gallery .middle {
     padding-bottom: var(--padding-1);
-   }
+     }
 }
 
 
