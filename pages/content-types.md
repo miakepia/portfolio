@@ -106,7 +106,7 @@ layout: base.html
 <div class="right">
   <h3>We piloted better documentation</h3>
 
-    Research revealed that there were no standard processes for teams on GOV.Uk to rely on when working. Many people didn’t know what resources existed, and knowledge often disappeared when team members left.   
+    Research revealed that there were no standard processes for teams on GOV.UK to rely on when working. Many people didn’t know what resources existed, and knowledge often disappeared when team members left.   
 
     Most pressingly, we needed a way to make sure that work done was always aligned with the GOV.UK strategy. Teams needed to understand the why, not just the how of decision making.
 
