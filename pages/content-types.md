@@ -139,7 +139,9 @@ layout: base.html
 
 <div class="outro">
    
-   Making sense of a complex system isn't just about good documentation or solid foundations. It's also about talking to teams to understand how they interact with and understand it. Changes to systems should never be top-down; an iterative and collaborative approach is vital.
+   Making sense of a complex system isn't just about good documentation or solid foundations. It's also about talking to teams to understand how they interact with and understand it. 
+   
+   Changes to systems should never be top-down; an iterative and collaborative approach is vital.
 
 </div> 
 </section>
