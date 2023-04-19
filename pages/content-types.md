@@ -133,9 +133,15 @@ layout: base.html
 
     Our deliverables were crafted to work separately and together so they can be widely shared and used to influence decisions at all levels. 
 
-    It was important to bring people along, and teams were invited to collaborative sessions to brainstorm how these ideas would enable their work.
+    It was important to bring people along, and teams were invited to collaborative sessions to build on and iterate the ideas. 
 </div>
 </div>
+
+<div class="outro">
+   
+   Making sense of a complex system isn't just about good documentation or solid foundations. It's also about talking to teams to understand how they interact with and understand it. Changes to systems should never be top-down; an iterative and collaborative approach is vital.
+
+</div> 
 </section>
 
 <section>
