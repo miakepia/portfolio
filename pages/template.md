@@ -1,5 +1,5 @@
 ---
-title: 'Work'
+title: 'Mia Allers — A simpler, clearer GOV.UK'
 layout: base.html
 
 ---

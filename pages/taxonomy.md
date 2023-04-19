@@ -1,5 +1,5 @@
 ---
-title: 'Work'
+title: 'Mia Allers — Improving user journeys on GOV.UK'
 layout: base.html
 
 ---

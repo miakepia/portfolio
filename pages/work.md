@@ -1,5 +1,5 @@
 ---
-title: 'Work'
+title: 'Mia Allers — Work'
 layout: base.html
 
 ---
