@@ -75,7 +75,7 @@ layout: base.html
  <img  class="left-half" src="/assets/images/uia-2.png" alt="A newspaper layout"> 
  <img  class="right-half" src="/assets/images/uia-1.png" alt="A newspaper layout"> 
 
-
+  <img  class="middle" src="/assets/images/hm4.png" alt="Screenshots of the Hentschmen website"> 
  <img  class="right-big" src="/assets/images/mission-patches.png" alt="Stickers for kids"> 
 
 </div>
