@@ -63,7 +63,7 @@ layout: base.html
     These issues were exacerbated by teams using fragmented resources: tech docs, component libraries and content guidance were siloed and contradictory .
 
     Finally, there was little information on how past decisions were made, or why.
-
+  <img class="inline-image" src="/assets/images/scribble.png" alt=""> 
  </div>
  </div>
 

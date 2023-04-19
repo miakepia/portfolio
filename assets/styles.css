@@ -462,10 +462,14 @@ ol {
     content: 'Next project';
   }
 
-/* Gallery grid */
+/* Gallery and images grid */
 
 img {
   padding-bottom: var(--padding-2);
+}
+
+.inline-image  {
+  padding-bottom: 0px;
 }
 
 .left-big, .right-big, .left-half, .right-half, .gallery .middle {
