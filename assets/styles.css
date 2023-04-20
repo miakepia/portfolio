@@ -136,7 +136,7 @@ section {
 #project-2::before {
   content: '2019\2014 2020';
 }
-
+/* 
 #project-2::after {
   background-image: url(/assets/images/popular.png);
   background-size: 60px 60px;
@@ -148,11 +148,8 @@ section {
   left: 10px;
   content:"";
   margin-top: -1em;
-}
+} */
 
-#project-2 {
-  margin-top: -20px;
-}
 
 #project-3::before {
   content: '2022';
@@ -445,7 +442,7 @@ footer {
   font-size: var(--small);
 }
 
-/* .gov-logo::before {
+.gov-logo::before {
   background-image: url(/assets/images/crown.png);
   background-size: 18px 13px;
   display: inline-block;
@@ -453,7 +450,7 @@ footer {
   height: 13px;
   content:"";
   margin-right: 5px;
-} */
+}
 
 ol {
   margin: 0;
