@@ -59,6 +59,8 @@ layout: base.html
 
 <img class="middle" src="/assets/images/bf-postcards-mob.png" alt="Baby Friendly promotional postcards">
 
+ <img  class="right-big" src="/assets/images/crane.png" alt="An illustration of a Crane bird"> 
+
  <img  class="left-half" src="/assets/images/pnt1.png" alt="A screenshot of a page from the Post Normal Times website">
 
 <picture class="right-half">
@@ -85,7 +87,6 @@ layout: base.html
     <img src="/assets/images/hm4.png" alt="Screenshots of the Hentschmen website">
 </picture> 
 
- <img  class="left-big" src="/assets/images/crane.png" alt="An illustration of a Crane bird"> 
 
 
 </div>
