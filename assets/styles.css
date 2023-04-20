@@ -448,10 +448,10 @@ footer {
 .gov-logo::before {
   /* content: url(/assets/images/crown.png); */
   background-image: url(/assets/images/crown.png);
-  background-size: 19px 14px;
+  background-size: 18px 13px;
   display: inline-block;
-  width: 19px; 
-  height: 14px;
+  width: 18px; 
+  height: 13px;
   content:"";
   margin-right: 5px;
 }
