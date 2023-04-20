@@ -137,6 +137,23 @@ section {
   content: '2019\2014 2020';
 }
 
+#project-2::after {
+  background-image: url(/assets/images/popular.png);
+  background-size: 60px 60px;
+  display: inline-block;
+  width: 60px; 
+  height: 60px;
+  position: relative;
+  top: 15px;
+  left: 10px;
+  content:"";
+  margin-top: -1em;
+}
+
+#project-2 {
+  margin-top: -20px;
+}
+
 #project-3::before {
   content: '2022';
 }
