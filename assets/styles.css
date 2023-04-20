@@ -311,6 +311,13 @@ p:last-child, li:last-child {
     grid-column: 10 / span 3 ;
   }
 
+  .note {
+    font-size: var(--small);
+    font-family: var(--sans);
+    font-weight: normal;
+
+  }
+
 .intro {
     display: grid;
     grid-column: 1 / span 9;
