@@ -41,7 +41,7 @@ layout: base.html
 
 <section class="gallery">
 <div class="[ grid ]">  
-  <h2 class="right">Previous work</h2>
+  <h2 class="right">Selected work</h2>
 </div>
 
 
