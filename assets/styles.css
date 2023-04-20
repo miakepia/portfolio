@@ -445,8 +445,7 @@ footer {
   font-size: var(--small);
 }
 
-.gov-logo::before {
-  /* content: url(/assets/images/crown.png); */
+/* .gov-logo::before {
   background-image: url(/assets/images/crown.png);
   background-size: 18px 13px;
   display: inline-block;
@@ -454,7 +453,7 @@ footer {
   height: 13px;
   content:"";
   margin-right: 5px;
-}
+} */
 
 ol {
   margin: 0;
