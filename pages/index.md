@@ -10,7 +10,7 @@ layout: base.html
   <div class="about">
    <h1>Hello</h1>
   
-   I'm a design lead living and working in London. 
+   I'm a <i>design lead</i> living and working in London. 
 
    Since 2016 I've been a designer at the UK <a href="https://www.gov.uk/government/organisations/government-digital-service">Government Digital Service</a>, making things better for users and teams on <a href="https://www.gov.uk/government/organisations/government-digital-service">GOV.UK.</a> 
  </div>

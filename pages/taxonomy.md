@@ -10,7 +10,7 @@ layout: base.html
 <div class="intro">
    <h1>Improving user journeys on GOV.UK</h1>
     
-  In 2018, a user couldn't move easily from one part of GOV.UK to another. The website was made up of three separate and siloed areas, with no reliable way of navigating across them. 
+  In 2018, a user couldn't move easily from one part of GOV.UK to another. The website was made up of three separate and siloed areas, with no <i>reliable</i> way of navigating across them. 
     
   Users couldn’t find what they needed or complete tasks, and publishers couldn’t easily link content together.
 </div> 

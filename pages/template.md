@@ -9,7 +9,7 @@ layout: base.html
 <div class="intro">
    <h1>A simpler, clearer GOV.UK</h1>
   
-    Four years after it was launched, visitors to GOV.UK were struggling with an unpredictable and inaccessible experience. 
+    Four years after it was launched, visitors to GOV.UK were <i>struggling</i> with an unpredictable and inaccessible experience. 
     
     We wanted to make things better for users, but this was difficult: variable designs and a complicated front-end made iterating at scale impossible.
 
