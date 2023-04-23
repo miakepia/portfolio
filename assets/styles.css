@@ -440,6 +440,7 @@ footer {
 .gov-logo {
   color: var(--body);
   font-size: var(--small);
+  font-weight: normal;
 }
 
 .gov-logo::before {
