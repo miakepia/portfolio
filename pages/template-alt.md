@@ -1,5 +1,5 @@
 ---
-title: 'Work'
+title: 'Mia Allers — A simpler, clearer GOV.UK'
 layout: base.html
 
 ---
@@ -7,25 +7,43 @@ layout: base.html
 <!-- Section 1 The challenge -->
 <section>
 <div class="intro">
-   <h1>Streamlining the GOV.UK front-end</h1>
+   <h1>A simpler, clearer GOV.UK</h1>
   
-    Poor accessibility and inconsistent layouts made GOV.UK    unpredictable to navigate and difficult to use. 
+    Four years after it was launched, visitors to GOV.UK were <i>struggling</i> with an unpredictable and inaccessible experience. 
     
-    Work to improve the user experience was hampered by a complicated tech stack and huge amounts of design debt.
+    We wanted to make things better for users, but this was difficult: variable designs and a complicated front-end made iterating at scale impossible.
+
+ <div class="[ intro-outcomes ] [  ]">
+ <h2>Just give me the headlines</h2>
+ <ol class="grid">
+ <li id="outcome-1">140 html templates reduced to 10. Here are some more words.</li>  
+ <li id="outcome-2">We consolidated components and improved accessibility.This is an outcome.</li>  
+ <li id="outcome-3">This is an outcome. It needs to be concise and easy to understand.</li>  
+ </ol> 
+ </div>  
+
 </div> 
 </section>
 
 
 <section> 
 <div class="grid">
+
+ <!-- <div class="[ left ][ quick-facts ]">
+    <h2>Quick facts</h2>
+    <ol>
+    <li id="outcome-1">140 html templates reduced to 10</li>  
+    <li id="outcome-2">We consolidated components and improved accessibility.This is an outcome.</li>  
+    <li id="outcome-3">This is an outcome. It needs to be concise and easy to understand.</li>  
+    </ol> 
+ </div>   -->
+
   <div class="right">
    <h2>The challenge</h2>
 
-    When GOV.UK was first built, part of the work was to digitise all the different 'content types' that departments were publishing. These included things like ‘News’, ‘Guides’ and ‘Consultations’. 
-
-    By 2016 GOV.UK had 140 different content types, each with a unique layout. 
-
-    Content types had been designed and iterated organically and without an overarching strategy, resulting in a great deal of variation across the site. Technical and design debt had piled up to the point that it was impossible to make global improvements, slowing down delivery and stymying innovation. 
+    Over the years, the site had become complicated and difficult for both designers and developers to make sense of. Layouts, design elements and code were iconsistent. 
+    
+    Having over 100 templates also made accessibility and layout improvements almost impossible. 
 </div>
 </div>
 
@@ -36,20 +54,20 @@ layout: base.html
     <source media="(max-width: 400px)" srcset="/assets/images/layout-grid-mob.png">
     <img src="/assets/images/layout-grid.png" alt="A grid of some of the layouts on GOV.UK in 2016">
   </picture> 
-   <figcaption class="right">Caption</figcaption>
+   <figcaption class="right">These were just a few of the inconsistent layouts across the site</figcaption>
   </figure>
 
 <div class="grid">
   <div class="right">
    <h2>What we did</h2>
+
+    Content pages are visited more than any other pages, so our starting goal was to reduce the number of content page layouts on the site. These were made up of 140 templates, all with different design elements.
+
    <h3>Research and design audit</h3>
 
-    I audited all 140 layouts and their design elements, sorting them into categories and grouping them by use-case, common elements and user needs. An accessibility review of our most popular pages revealed many areas for improvement.
-    
-    Our user researcher interviewed designers and developers to understand what it was like to work on templates. Many told us they didn’t understand how each template worked or what it did. 
+    To get started, I combed through four years of research on GOV.UK. This helped us to see the bigger picture and approach the problem holistically.
 
-    We established that the front-end architecture was complicated and challenging, especially for new starters. 
-    
+    We reviewed the current templates and layouts to figure out how we could improve not just the design, but also the accessibility of the site.
   </div>
  </div>
 
@@ -66,7 +84,7 @@ layout: base.html
     <img src="/assets/images/personas.png" alt="A photo of a woman reading some posters on a wall">
   </picture> 
 
-   <figcaption class="right">Image of post it notes with A11y stuff] We used user profiles to help us review the templates for accessibility issues. We also tested on a range of devices, which gave us much-needed insight into how users of older technology experience the site.</figcaption>
+   <figcaption class="right">We used <a href="https://www.gov.uk/government/publications/understanding-disabilities-and-impairments-user-profiles">accessibility profiles</a> to help us review the templates for accessibility issues. We also tested on a range of devices, which gave us much-needed insight into how users of older technology experience the site.</figcaption>
 </figure>   
 
 <div class="grid">
@@ -79,8 +97,8 @@ layout: base.html
 
     We used a range of methods to test our designs and measure success, including:
   <ul>
-    <li>Internal confidence surveys</li>
-    <li>Usability testing with users on mobile and desktop.</li>
+    <li>Internal confidence surveys for those who worked on templates</li>
+    <li>Usability testing with users on mobile and desktop</li>
     <li>AB tests to measure the success of layouts and components at scale</li>
   </ul>
 </div>
@@ -100,19 +118,18 @@ layout: base.html
 
     We reduced the number of unique layouts from 140 to 10, making it more straightforward for teams to iterate GOV.UK at pace. A smaller number of layouts and design elements also meant we could simplify the front-end architecture. 
 
-    User experience improved as the predictable design allowed users to focus on content instead of the design.
+    User experience improved as the predictable design allowed users to focus on the content they needed.
 
     Accessibility improvements to font size, touch targets, colour contrast and layout improved the mobile experience as well. 
     
-    Given that 40% of users visited GOV.UK on mobile devices at the time, the impact of this was significant. 
-
     Developer and designer confidence in making changes increased, and teams felt less stressed and more able to innovate. 
 </div>
 </div>
 
 <div class="outro">
    
-   This work helped kick off the first, early explorations for a <a href="https://design-system.service.gov.uk/">GOV.UK Design System</a>. And the streamlined design and front-end also laid the foundations for us to improve user journeys across the site.
+   This work helped kick off the first, early explorations for a <a href="https://design-system.service.gov.uk/">GOV.UK Design System</a>. The streamlined design and front-end also laid the foundations for simpler publishing tools, unified navigation and rapid iteration at scale.
+
 </div> 
 </section>
 
@@ -132,10 +149,7 @@ layout: base.html
 <div class="[ grid ] [ pagination ]">
   <div class="right">
     <div class="next">
-      <a href="/taxonomy">Improving navigation on GOV.UK</a>
+      <a href="/taxonomy">Improving user journeys on GOV.UK</a>
     </div>
-    <!-- <div class="prev">
-      <a href="/index">Another case study</a>
-    </div> -->
   </div>
 </div>
