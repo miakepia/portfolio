@@ -613,7 +613,7 @@ img {
   }
 
   .right {
-    grid-column: 7 / span 6;
+    grid-column: 5 / span 8;
   }
   .sticky {
     position: relative;

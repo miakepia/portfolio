@@ -14,7 +14,7 @@ layout: base.html
     We wanted to make things better for users, but this was difficult: variable designs and a complicated front-end made iterating at scale impossible.
 
  <div class="[ intro-outcomes ] [  ]">
- <h2>Just give me the headlines</h2>
+ <h2>Highlights</h2>
  <ol class="grid">
  <li id="outcome-1">140 html templates reduced to 10. Here are some more words.</li>  
  <li id="outcome-2">We consolidated components and improved accessibility.This is an outcome.</li>  
