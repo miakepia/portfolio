@@ -13,14 +13,23 @@ layout: base.html
     
     We wanted to make things better for users, but this was difficult: variable designs and a complicated front-end made iterating at scale impossible.
 
- <div class="[ intro-outcomes ] [  ]">
+ <div class="[ highlights ] [  ]">
  <h2>Highlights</h2>
  <ol class="grid">
- <li id="outcome-1">140 html templates reduced to 10. Here are some more words.</li>  
+ <li id="outcome-1">This is a highlight: 140 html templates reduced to 10. Here are some more words.</li>  
  <li id="outcome-2">We consolidated components and improved accessibility.This is an outcome.</li>  
  <li id="outcome-3">This is an outcome. It needs to be concise and easy to understand.</li>  
  </ol> 
  </div>  
+
+<figure class="grid">
+  <picture class="middle">
+    <source media="(min-width: 800px)" srcset="/assets/images/layout-grid.png">
+    <source media="(max-width: 400px)" srcset="/assets/images/layout-grid-mob.png">
+    <img src="/assets/images/layout-grid.png" alt="A grid of some of the layouts on GOV.UK in 2016">
+  </picture> 
+   <figcaption class="right">These were just a few of the inconsistent layouts across the site</figcaption>
+  </figure>
 
 </div> 
 </section>
@@ -50,9 +59,9 @@ layout: base.html
 
   <figure class="grid">
   <picture class="middle">
-    <source media="(min-width: 800px)" srcset="/assets/images/layout-grid.png">
-    <source media="(max-width: 400px)" srcset="/assets/images/layout-grid-mob.png">
-    <img src="/assets/images/layout-grid.png" alt="A grid of some of the layouts on GOV.UK in 2016">
+    <source media="(min-width: 800px)" srcset="/assets/images/placeholder.png">
+    <source media="(max-width: 400px)" srcset="/assets/images/placeholder-mob.png">
+    <img src="/assets/images/placeholder.png" alt="A grid of some of the layouts on GOV.UK in 2016">
   </picture> 
    <figcaption class="right">These were just a few of the inconsistent layouts across the site</figcaption>
   </figure>
