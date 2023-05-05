@@ -429,6 +429,7 @@ footer {
 .footnotes {
   padding-top: var(--padding-1);
 }
+
 .credits p, .credits h2 {
   font-size: var(--small);
   color: var(--mid);
@@ -448,7 +449,7 @@ footer {
 .gov-logo {
   color: var(--body);
   font-size: var(--small);
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .gov-logo::before {
@@ -582,7 +583,10 @@ img {
 .highlights h2 {
   font-size: var(--medium);
   padding-bottom: 10px;
+  padding-bottom: 5px;
 }
+
+
 
 /* .quick-facts {
   padding-right: 20px;
@@ -655,6 +659,7 @@ img {
 }
 .highlights h2 {
   font-size: var(--large);
+  padding-bottom: var(--padding-05);
 }
 }
 
