@@ -23,7 +23,8 @@ layout: base.html
 <section>
 <div class="[ grid ] [ projects ]">
 <div class="right">
-   <h2><span class="gov-logo">GOV.UK</span>Case studies</h2>
+   <!-- <h2><span class="gov-logo">GOV.UK</span>Case studies</h2> -->
+   <h2>Case studies</h2>
    
    <h3 id="project-3"><a href="/content-types">Exploring GOV.UK as a system</a></h3>
 
@@ -35,10 +36,29 @@ layout: base.html
 
    <h3 id="project-1"><a href="/template">A simpler, clearer GOV.UK</a></h3>
    
-    Rationalising and improving the GOV.UK front-end, making it easier to work on and better to use.    
+    Rationalising and improving the GOV.UK front-end, making it easier to work on and better to use.   
 
 </div>
 </div>
+
+<div class="[ grid ] [ notes ]">
+<div class="right">
+<h2>Design notes</h2>
+   
+   <h3><a href="/">Design Council brand audit</a></h3>
+
+    Coming soon. Embedding accessibility and sustainability into the foundations of a brand.
+
+   <h3><a href="/">Anatomy of a mega-menu</a></h3>
+
+    Coming soon. A deep dive into creating an accessible mega-menu.
+
+   <h3><a href="/">Making mistakes at scale</a></h3>
+
+   Coming soon. How we made an accessible accordion component.
+
+</div> 
+</div>  
 </section>
 
 <section class="gallery">

@@ -10,10 +10,22 @@ layout: base.html
 <div class="intro">
    <h1>Improving navigation</h1>
     
-    In 2018, a user couldn't move easily from one part of GOV.UK to another. The website was made up of three separate and siloed areas, with no reliable way of navigating across them. 
+    In 2018, a user couldn't move easily from one part of GOV.UK to another. The website was made up of <i>three separate and siloed areas,</i> with no reliable way of navigating across them. 
     
     Users couldn’t find what they needed or complete tasks, and publishers couldn’t easily link content together.
 </div> 
+
+<div class="grid">
+<div class="highlights">
+ <h2>Highlights of this project</h2>
+ <ol class="">
+ <li id="outcome-1">This is a highlight: 140 html templates reduced to 10. Here are some more words.</li>  
+ <li id="outcome-2">We consolidated components and improved accessibility.This is an outcome.</li>  
+ <li id="outcome-3">This is an outcome. It needs to be concise and easy to understand.</li>  
+ </ol> 
+ </div> 
+</div>  
+
 </section>
 
 <section> 
@@ -172,6 +184,20 @@ layout: base.html
 </div>
 </div>
 
+<figure class="grid"> 
+
+   <picture class="middle">
+    <source media="(min-width: 800px)" srcset="/assets/images/browse.png">
+    <img src="/assets/images/menu-desk.png" alt="An illustration of how links are created, using metadata, content types, jobs and tasks, key words and the tacxonomy">
+  </picture>
+
+  <picture class="middle">
+    <source media="(min-width: 800px)" srcset="/assets/images/menu-desk.png">
+    <img src="/assets/images/menu-desk.png" alt="An illustration of how links are created, using metadata, content types, jobs and tasks, key words and the tacxonomy">
+  </picture>
+
+  <figcaption class="right">We were able to combine jobs, objects and taxonomy elements to predict where users needed to go next.</figcaption>
+</figure>
 
 <div class="outro">
 
