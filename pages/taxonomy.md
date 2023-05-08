@@ -159,7 +159,7 @@ layout: base.html
 <figure class="grid"> 
 
    <picture class="middle">
-    <img src="/assets/images/menu-desk.png" alt="Topic browse pages on GOV.UK">
+    <img src="/assets/images/browse.png" alt="Topic browse pages on GOV.UK">
   </picture>
 
   <picture class="middle">
