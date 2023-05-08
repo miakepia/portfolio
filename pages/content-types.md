@@ -131,8 +131,6 @@ layout: base.html
 
     To make teams fall in love with these ideas, we brought them to life with stories, prototypes and future scenarios.
 
-    Our deliverables were crafted to work separately and together so they can be widely shared and used to influence decisions at all levels. 
-
     It was important to bring people along, and teams were invited to collaborative sessions to build on and iterate the ideas. 
 </div>
 </div>
