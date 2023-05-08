@@ -159,12 +159,10 @@ layout: base.html
 <figure class="grid"> 
 
    <picture class="middle">
-    <source media="(min-width: 800px)" srcset="/assets/images/browse.png">
     <img src="/assets/images/menu-desk.png" alt="Topic browse pages on GOV.UK">
   </picture>
 
   <picture class="middle">
-    <source media="(min-width: 800px)" srcset="/assets/images/menu-desk.png">
     <img src="/assets/images/menu-desk.png" alt="The mega-menu used for GOV.UK">
   </picture>
 
