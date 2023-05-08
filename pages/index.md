@@ -53,7 +53,7 @@ layout: base.html
 
     Coming soon. A deep dive into creating an accessible mega-menu.
 
-   <h3><a href="/">Making mistakes at scale</a></h3>
+   <h3><a href="/">Making an accessible accordion</a></h3>
 
    Coming soon. How we made an accessible accordion component.
 
