@@ -166,7 +166,7 @@ layout: base.html
     <img src="/assets/images/menu-desk.png" alt="The mega-menu used for GOV.UK">
   </picture>
 
-  <figcaption class="right">Top: The work done during this mission led directly to new topic pages being implemented. Bottom: a universal menu was finally implemented in 2022. </figcaption>
+  <figcaption class="right">Top: The work done during this mission led directly to new topic pages being implemented. Bottom: a universal menu was finally shipped in 2022. </figcaption>
 </figure>
 
 
