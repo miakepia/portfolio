@@ -31,9 +31,7 @@ layout: base.html
 
   <figure class="grid">
   <picture class="middle">
-    <source media="(min-width: 800px)" srcset="/assets/images/layout-grid.png">
-    <source media="(max-width: 400px)" srcset="/assets/images/layout-grid-mob.png">
-    <img src="/assets/images/layout-grid.png" alt="A grid of some of the layouts on GOV.UK in 2016">
+    <img src="/assets/images/layout-grid-greyscale.png" alt="A grid of some of the layouts on GOV.UK in 2016">
   </picture> 
    <figcaption class="right">These were just a few of the inconsistent layouts across the site</figcaption>
   </figure>

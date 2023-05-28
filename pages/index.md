@@ -91,6 +91,8 @@ layout: base.html
     <img src="/assets/images/pnt2.png" alt="A man holds a mobile phone in his hand, showing a webpage from Post Normal Times">
 </picture> 
 
+<img class="middle" src="/assets/images/pnt-multi.png" alt="Baby Friendly promotional postcards">
+
 
  <picture class="middle">
     <source media="(min-width: 800px)" srcset="/assets/images/pride.png">
